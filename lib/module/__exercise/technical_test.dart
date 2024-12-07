@@ -1,5 +1,9 @@
 // ignore_for_file: dead_code, unused_local_variable, unnecessary_null_comparison
 
+import 'dart:collection';
+
+import 'package:hyper_ui/core.dart';
+
 class TechnicalTest {
   static dynamic output;
   List list = [
@@ -7,7 +11,7 @@ class TechnicalTest {
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 10
       // >>> Tulis jawabanmu di bawah ini
-      int output = 3;
+      int output = 10;
       // --- End of Answer ---
 
       return output == 10;
@@ -16,530 +20,486 @@ class TechnicalTest {
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 42
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = 42;
       // --- End of Answer ---
 
-      return output is int && output == 42;
+      return output == 42;
     },
     // Exercise 3
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -7
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = -7;
       // --- End of Answer ---
 
-      return output is int && output == -7;
+      return output == -7;
     },
     // Exercise 4
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 0
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = 0;
       // --- End of Answer ---
 
-      return output is int && output == 0;
+      return output == 0;
     },
     // Exercise 5
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 99999
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = 99999;
       // --- End of Answer ---
 
-      return output is int && output == 99999;
+      return output == 99999;
     },
     // Exercise 6
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -12345
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = -12345;
       // --- End of Answer ---
 
-      return output is int && output == -12345;
+      return output == -12345;
     },
     // Exercise 7
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 1000000
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = 1000000;
       // --- End of Answer ---
 
-      return output is int && output == 1000000;
+      return output == 1000000;
     },
     // Exercise 8
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -987654
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = -987654;
       // --- End of Answer ---
 
-      return output is int && output == -987654;
+      return output == -987654;
     },
     // Exercise 9
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 888
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = 888;
       // --- End of Answer ---
 
-      return output is int && output == 888;
+      return output == 888;
     },
     // Exercise 10
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -555
       // >>> Tulis jawabanmu di bawah ini
-
+      int output = -555;
       // --- End of Answer ---
 
-      return output is int && output == -555;
+      return output == -555;
     },
     // Exercise 11
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 3.14
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = 3.14;
       // --- End of Answer ---
 
-      return output is double && output == 3.14;
+      return output == 3.14;
     },
     // Exercise 12
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 2.71828
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = 2.71828;
       // --- End of Answer ---
 
-      return output is double && output == 2.71828;
+      return output == 2.71828;
     },
     // Exercise 13
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai -5.67
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = -5.67;
       // --- End of Answer ---
 
-      return output is double && output == -5.67;
+      return output == -5.67;
     },
     // Exercise 14
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 0.0
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = 0.0;
       // --- End of Answer ---
 
-      return output is double && output == 0.0;
+      return output == 0.0;
     },
     // Exercise 15
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 12345.6789
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = 12345.6789;
       // --- End of Answer ---
 
-      return output is double && output == 12345.6789;
+      return output == 12345.6789;
     },
     // Exercise 16
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 7.5
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = 7.5;
       // --- End of Answer ---
 
-      return output is double && output == 7.5;
+      return output == 7.5;
     },
     // Exercise 17
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai -2.25
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = -2.25;
       // --- End of Answer ---
 
-      return output is double && output == -2.25;
+      return output == -2.25;
     },
     // Exercise 18
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 0.01
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = 0.01;
       // --- End of Answer ---
 
-      return output is double && output == 0.01;
+      return output == 0.01;
     },
     // Exercise 19
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 123.456
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = 123.456;
       // --- End of Answer ---
 
-      return output is double && output == 123.456;
+      return output == 123.456;
     },
     // Exercise 20
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai -9876.54321
       // >>> Tulis jawabanmu di bawah ini
-
+      double output = -9876.54321;
       // --- End of Answer ---
 
-      return output is double && output == -9876.54321;
+      return output == -9876.54321;
     },
     // Exercise 21
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = true;
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 22
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = false;
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 23
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = true;
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 24
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = false;
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 25
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = true;
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 26
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = false;
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 27
     () {
-      // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
+      // ? Instruksi: Deklarasikan sebuah varPiabel "output" dengan tipe data boolean dan beri nilai true
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = true;
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 28
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = false;
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 29
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = true;
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 30
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
       // >>> Tulis jawabanmu di bawah ini
-
+      bool output = false;
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 31
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Hello, World!"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "Hello, World!";
       // --- End of Answer ---
 
-      return output is String && output == "Hello, World!";
+      return output == "Hello, World!";
     },
     // Exercise 32
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Dart is fun!"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "Dart is fun!";
       // --- End of Answer ---
-
-      return output is String && output == "Dart is fun!";
+      return output == "Dart is fun!";
     },
     // Exercise 33
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "12345"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "12345";
       // --- End of Answer ---
 
-      return output is String && output == "12345";
+      return output == "12345";
     },
     // Exercise 34
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "3.14159"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "3.14159";
       // --- End of Answer ---
 
-      return output is String && output == "3.14159";
+      return output == "3.14159";
     },
     // Exercise 35
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "true"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "true";
       // --- End of Answer ---
 
-      return output is String && output == "true";
+      return output == "true";
     },
     // Exercise 36
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "false"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "false";
       // --- End of Answer ---
 
-      return output is String && output == "false";
+      return output == "false";
     },
     // Exercise 37
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Hello, Dart!"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "Hello, Dart!";
       // --- End of Answer ---
 
-      return output is String && output == "Hello, Dart!";
+      return output == "Hello, Dart!";
     },
     // Exercise 38
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "42"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "42";
       // --- End of Answer ---
 
-      return output is String && output == "42";
+      return output == "42";
     },
     // Exercise 39
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "3.14"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "3.14";
       // --- End of Answer ---
 
-      return output is String && output == "3.14";
+      return output == "3.14";
     },
     // Exercise 40
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Hello, World!"
       // >>> Tulis jawabanmu di bawah ini
-
+      String output = "Hello, World!";
       // --- End of Answer ---
 
-      return output is String && output == "Hello, World!";
+      return output == "Hello, World!";
     },
     // Exercise 41
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 1 Januari 2022
       // >>> Tulis jawabanmu di bawah ini
-
+      DateTime output = new DateTime(2022, 1, 1);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2022 &&
-          output.month == 1 &&
-          output.day == 1;
+      return output.year == 2022 && output.month == 1 && output.day == 1;
     },
     // Exercise 42
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 31 Desember 2000
       // >>> Tulis jawabanmu di bawah ini
-
+      DateTime output = new DateTime(2000, 12, 31);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2000 &&
-          output.month == 12 &&
-          output.day == 31;
+      return output.year == 2000 && output.month == 12 && output.day == 31;
     },
     // Exercise 43
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 15 September 1995
       // >>> Tulis jawabanmu di bawah ini
-
+      DateTime output = new DateTime(1995, 9, 15);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 1995 &&
-          output.month == 9 &&
-          output.day == 15;
+      return output.year == 1995 && output.month == 9 && output.day == 15;
     },
     // Exercise 44
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 10 Mei 2023
       // >>> Tulis jawabanmu di bawah ini
-
+      DateTime output = new DateTime(2023, 5, 10);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2023 &&
-          output.month == 5 &&
-          output.day == 10;
+      return output.year == 2023 && output.month == 5 && output.day == 10;
     },
     // Exercise 45
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 24 November 2010
       // >>> Tulis jawabanmu di bawah ini
-
+      DateTime output = new DateTime(2010, 11, 24);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2010 &&
-          output.month == 11 &&
-          output.day == 24;
+      return output.year == 2010 && output.month == 11 && output.day == 24;
     },
     // Exercise 46
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [1, 2, 3, 4, 5]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<int> output = [1, 2, 3, 4, 5];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 1 &&
-          output[4] == 5;
+      return output.length == 5 && output[0] == 1 && output[4] == 5;
     },
     // Exercise 47
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [10, 20, 30, 40, 50]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<int> output = [10, 20, 30, 40, 50];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 10 &&
-          output[4] == 50;
+      return output.length == 5 && output[0] == 10 && output[4] == 50;
     },
     // Exercise 48
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [5, 4, 3, 2, 1]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<int> output = [5, 4, 3, 2, 1];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 5 &&
-          output[4] == 1;
+      return output.length == 5 && output[0] == 5 && output[4] == 1;
     },
     // Exercise 49
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [0, 2, 4, 6, 8]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<int> output = [0, 2, 4, 6, 8];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 0 &&
-          output[4] == 8;
+      return output.length == 5 && output[0] == 0 && output[4] == 8;
     },
     // Exercise 50
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [9, 7, 5, 3, 1]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<int> output = [9, 7, 5, 3, 1];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 9 &&
-          output[4] == 1;
+      return output.length == 5 && output[0] == 9 && output[4] == 1;
     },
     // Exercise 51
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<double> dan beri nilai [1.1, 2.2, 3.3, 4.4, 5.5]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<double> output = [1.1, 2.2, 3.3, 4.4, 5.5];
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
-          output[0] == 1.1 &&
-          output[4] == 5.5;
+      return output.length == 5 && output[0] == 1.1 && output[4] == 5.5;
     },
     // Exercise 52
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<double> dan beri nilai [0.5, 1.5, 2.5, 3.5, 4.5]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<double> output = [0.5, 1.5, 2.5, 3.5, 4.5];
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
-          output[0] == 0.5 &&
-          output[4] == 4.5;
+      return output.length == 5 && output[0] == 0.5 && output[4] == 4.5;
     },
     // Exercise 53
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<double> dan beri nilai [10.0, 20.0, 30.0, 40.0, 50.0]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<double> output = [10.0, 20.0, 30.0, 40.0, 50.0];
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
-          output[0] == 10.0 &&
-          output[4] == 50.0;
+      return output.length == 5 && output[0] == 10.0 && output[4] == 50.0;
     },
     // Exercise 54
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<String> dan beri nilai ["apple", "banana", "cherry", "date", "fig"]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<String> output = ["apple", "banana", "cherry", "date", "fig"];
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
-          output[0] == "apple" &&
-          output[4] == "fig";
+      return output.length == 5 && output[0] == "apple" && output[4] == "fig";
     },
     // Exercise 55
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<String> dan beri nilai ["grape", "kiwi", "lemon", "mango", "orange"]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<String> output = ["grape", "kiwi", "lemon", "mango", "orange"];
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0] == "grape" &&
           output[4] == "orange";
     },
@@ -547,11 +507,16 @@ class TechnicalTest {
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<String> dan beri nilai ["pear", "quince", "raspberry", "strawberry", "tangerine"]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<String> output = [
+        "pear",
+        "quince",
+        "raspberry",
+        "strawberry",
+        "tangerine"
+      ];
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0] == "pear" &&
           output[4] == "tangerine";
     },
@@ -559,25 +524,19 @@ class TechnicalTest {
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<bool> dan beri nilai [true, false, true, false, true]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<bool> output = [true, false, true, false, true];
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
-          output[0] == true &&
-          output[4] == true;
+      return output.length == 5 && output[0] == true && output[4] == true;
     },
     // Exercise 58
     () {
       // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<bool> dan beri nilai [false, true, false, true, false]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<bool> output = [false, true, false, true, false];
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
-          output[0] == false &&
-          output[4] == false;
+      return output.length == 5 && output[0] == false && output[4] == false;
     },
     // Exercise 59
     () {
@@ -590,11 +549,16 @@ class TechnicalTest {
       //   {"name": "Eve", "age": 22}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Alice", "age": 30},
+        {"name": "Bob", "age": 25},
+        {"name": "Carol", "age": 35},
+        {"name": "David", "age": 28},
+        {"name": "Eve", "age": 22}
+      ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["age"] == 30 &&
           output[4]["name"] == "Eve" &&
@@ -611,11 +575,16 @@ class TechnicalTest {
       //   {"fruit": "fig", "color": "purple"}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"fruit": "apple", "color": "red"},
+        {"fruit": "banana", "color": "yellow"},
+        {"fruit": "cherry", "color": "red"},
+        {"fruit": "date", "color": "brown"},
+        {"fruit": "fig", "color": "purple"}
+      ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["fruit"] == "apple" &&
           output[0]["color"] == "red" &&
           output[4]["fruit"] == "fig" &&
@@ -632,11 +601,32 @@ class TechnicalTest {
       //   {"name": "Eve", "scores": [75, 82, 80]}
       // ]
       // >>> Tulis jawabanmu di bawah ini
+      List<Map<String, dynamic>> output = [
+        {
+          "name": "Alice",
+          "scores": [85, 90, 78]
+        },
+        {
+          "name": "Bob",
+          "scores": [92, 88, 95]
+        },
+        {
+          "name": "Carol",
+          "scores": [78, 85, 80]
+        },
+        {
+          "name": "David",
+          "scores": [90, 87, 92]
+        },
+        {
+          "name": "Eve",
+          "scores": [75, 82, 80]
+        }
+      ];
 
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["scores"].length == 3 &&
           output[4]["name"] == "Eve" &&
@@ -653,11 +643,31 @@ class TechnicalTest {
       //   {"name": "Eve", "skills": ["Ruby", "Python", "Java"]}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {
+          "name": "Alice",
+          "skills": ["Java", "Python", "C++"]
+        },
+        {
+          "name": "Bob",
+          "skills": ["Python", "JavaScript", "Ruby"]
+        },
+        {
+          "name": "Carol",
+          "skills": ["JavaScript", "HTML", "CSS"]
+        },
+        {
+          "name": "David",
+          "skills": ["Java", "C#", "PHP"]
+        },
+        {
+          "name": "Eve",
+          "skills": ["Ruby", "Python", "Java"]
+        }
+      ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["skills"].length == 3 &&
           output[4]["name"] == "Eve" &&
@@ -674,11 +684,31 @@ class TechnicalTest {
       //   {"name": "Eve", "courses": ["Geography", "Economics"]}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {
+          "name": "Alice",
+          "courses": ["Math", "Physics"]
+        },
+        {
+          "name": "Bob",
+          "courses": ["Biology", "Chemistry"]
+        },
+        {
+          "name": "Carol",
+          "courses": ["English", "History"]
+        },
+        {
+          "name": "David",
+          "courses": ["Computer Science", "Programming"]
+        },
+        {
+          "name": "Eve",
+          "courses": ["Geography", "Economics"]
+        }
+      ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["courses"].length == 2 &&
           output[4]["name"] == "Eve" &&
@@ -695,11 +725,31 @@ class TechnicalTest {
       //   {"name": "Eve", "data": {"age": 22, "city": "Miami"}}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {
+          "name": "Alice",
+          "data": {"age": 30, "city": "New York"}
+        },
+        {
+          "name": "Bob",
+          "data": {"age": 25, "city": "Los Angeles"}
+        },
+        {
+          "name": "Carol",
+          "data": {"age": 35, "city": "Chicago"}
+        },
+        {
+          "name": "David",
+          "data": {"age": 28, "city": "Houston"}
+        },
+        {
+          "name": "Eve",
+          "data": {"age": 22, "city": "Miami"}
+        }
+      ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["data"]["age"] == 30 &&
           output[0]["data"]["city"] == "New York" &&
@@ -718,11 +768,35 @@ class TechnicalTest {
       //   {"name": "Eve", "details": {"age": 22, "city": "Miami", "occupation": "Student"}}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {
+          "name": "Alice",
+          "details": {"age": 30, "city": "New York", "occupation": "Engineer"}
+        },
+        {
+          "name": "Bob",
+          "details": {
+            "age": 25,
+            "city": "Los Angeles",
+            "occupation": "Designer"
+          }
+        },
+        {
+          "name": "Carol",
+          "details": {"age": 35, "city": "Chicago", "occupation": "Teacher"}
+        },
+        {
+          "name": "David",
+          "details": {"age": 28, "city": "Houston", "occupation": "Developer"}
+        },
+        {
+          "name": "Eve",
+          "details": {"age": 22, "city": "Miami", "occupation": "Student"}
+        }
+      ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["details"]["age"] == 30 &&
           output[0]["details"]["city"] == "New York" &&
@@ -741,10 +815,12 @@ class TechnicalTest {
       //   }
       // }
       // >>> Tulis jawabanmu di bawah ini
-
+      Map<String, dynamic> output = {
+        "name": "Alice",
+        "details": {"age": 30, "city": "New York"}
+      };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Alice" &&
+      return output["name"] == "Alice" &&
           output["details"]["age"] == 30 &&
           output["details"]["city"] == "New York";
     },
@@ -759,10 +835,12 @@ class TechnicalTest {
       //   }
       // }
       // >>> Tulis jawabanmu di bawah ini
-
+      Map<String, dynamic> output = {
+        "name": "Bob",
+        "details": {"age": 25, "city": "Los Angeles"}
+      };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Bob" &&
+      return output["name"] == "Bob" &&
           output["details"]["age"] == 25 &&
           output["details"]["city"] == "Los Angeles";
     },
@@ -777,10 +855,12 @@ class TechnicalTest {
       //   }
       // }
       // >>> Tulis jawabanmu di bawah ini
-
+      Map<String, dynamic> output = {
+        "name": "Carol",
+        "details": {"age": 35, "city": "Chicago"}
+      };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Carol" &&
+      return output["name"] == "Carol" &&
           output["details"]["age"] == 35 &&
           output["details"]["city"] == "Chicago";
     },
@@ -795,10 +875,12 @@ class TechnicalTest {
       //   }
       // }
       // >>> Tulis jawabanmu di bawah ini
-
+      Map<String, dynamic> output = {
+        "name": "David",
+        "details": {"age": 28, "city": "Houston"}
+      };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "David" &&
+      return output["name"] == "David" &&
           output["details"]["age"] == 28 &&
           output["details"]["city"] == "Houston";
     },
@@ -813,10 +895,12 @@ class TechnicalTest {
       //   }
       // }
       // >>> Tulis jawabanmu di bawah ini
-
+      Map<String, dynamic> output = {
+        "name": "Eve",
+        "details": {"age": 22, "city": "Miami"}
+      };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Eve" &&
+      return output["name"] == "Eve" &&
           output["details"]["age"] == 22 &&
           output["details"]["city"] == "Miami";
     },
@@ -829,10 +913,13 @@ class TechnicalTest {
       //   {"name": "Carol", "age": 35}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Alice", "age": 30},
+        {"name": "Bob", "age": 25},
+        {"name": "Carol", "age": 35}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Alice" &&
+      return output[0]["name"] == "Alice" &&
           output[0]["age"] == 30 &&
           output[1]["name"] == "Bob" &&
           output[1]["age"] == 25 &&
@@ -848,10 +935,13 @@ class TechnicalTest {
       //   {"name": "Frank", "age": 40}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "David", "age": 28},
+        {"name": "Eve", "age": 22},
+        {"name": "Frank", "age": 40}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "David" &&
+      return output[0]["name"] == "David" &&
           output[0]["age"] == 28 &&
           output[1]["name"] == "Eve" &&
           output[1]["age"] == 22 &&
@@ -867,10 +957,13 @@ class TechnicalTest {
       //   {"name": "Ivy", "age": 29}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Grace", "age": 50},
+        {"name": "Hank", "age": 45},
+        {"name": "Ivy", "age": 29}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Grace" &&
+      return output[0]["name"] == "Grace" &&
           output[0]["age"] == 50 &&
           output[1]["name"] == "Hank" &&
           output[1]["age"] == 45 &&
@@ -886,10 +979,13 @@ class TechnicalTest {
       //   {"name": "Leo", "age": 38}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Jack", "age": 33},
+        {"name": "Kate", "age": 27},
+        {"name": "Leo", "age": 38}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Jack" &&
+      return output[0]["name"] == "Jack" &&
           output[0]["age"] == 33 &&
           output[1]["name"] == "Kate" &&
           output[1]["age"] == 27 &&
@@ -905,10 +1001,13 @@ class TechnicalTest {
       //   {"name": "Olivia", "age": 26}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Mia", "age": 24},
+        {"name": "Noah", "age": 29},
+        {"name": "Olivia", "age": 26}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Mia" &&
+      return output[0]["name"] == "Mia" &&
           output[0]["age"] == 24 &&
           output[1]["name"] == "Noah" &&
           output[1]["age"] == 29 &&
@@ -924,10 +1023,13 @@ class TechnicalTest {
       //   {"name": "Robert", "age": 36}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Peter", "age": 31},
+        {"name": "Queen", "age": 23},
+        {"name": "Robert", "age": 36}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Peter" &&
+      return output[0]["name"] == "Peter" &&
           output[0]["age"] == 31 &&
           output[1]["name"] == "Queen" &&
           output[1]["age"] == 23 &&
@@ -943,10 +1045,13 @@ class TechnicalTest {
       //   {"name": "Uma", "age": 30}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Sam", "age": 27},
+        {"name": "Tom", "age": 32},
+        {"name": "Uma", "age": 30}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Sam" &&
+      return output[0]["name"] == "Sam" &&
           output[0]["age"] == 27 &&
           output[1]["name"] == "Tom" &&
           output[1]["age"] == 32 &&
@@ -962,10 +1067,13 @@ class TechnicalTest {
       //   {"name": "Xander", "age": 35}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Victoria", "age": 29},
+        {"name": "William", "age": 24},
+        {"name": "Xander", "age": 35}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Victoria" &&
+      return output[0]["name"] == "Victoria" &&
           output[0]["age"] == 29 &&
           output[1]["name"] == "William" &&
           output[1]["age"] == 24 &&
@@ -980,10 +1088,12 @@ class TechnicalTest {
       //   {"name": "Zane", "age": 31}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Yara", "age": 28},
+        {"name": "Zane", "age": 31}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Yara" &&
+      return output[0]["name"] == "Yara" &&
           output[0]["age"] == 28 &&
           output[1]["name"] == "Zane" &&
           output[1]["age"] == 31;
@@ -1020,10 +1130,36 @@ class TechnicalTest {
       //   {"name": "Zane", "age": 31}
       // ]
       // >>> Tulis jawabanmu di bawah ini
-
+      List<Map<String, dynamic>> output = [
+        {"name": "Alice", "age": 30},
+        {"name": "Bob", "age": 25},
+        {"name": "Carol", "age": 35},
+        {"name": "David", "age": 28},
+        {"name": "Eve", "age": 22},
+        {"name": "Frank", "age": 40},
+        {"name": "Grace", "age": 50},
+        {"name": "Hank", "age": 45},
+        {"name": "Ivy", "age": 29},
+        {"name": "Jack", "age": 33},
+        {"name": "Kate", "age": 27},
+        {"name": "Leo", "age": 38},
+        {"name": "Mia", "age": 24},
+        {"name": "Noah", "age": 29},
+        {"name": "Olivia", "age": 26},
+        {"name": "Peter", "age": 31},
+        {"name": "Queen", "age": 23},
+        {"name": "Robert", "age": 36},
+        {"name": "Sam", "age": 27},
+        {"name": "Tom", "age": 32},
+        {"name": "Uma", "age": 30},
+        {"name": "Victoria", "age": 29},
+        {"name": "William", "age": 24},
+        {"name": "Xander", "age": 35},
+        {"name": "Yara", "age": 28},
+        {"name": "Zane", "age": 31}
+      ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 26 &&
+      return output.length == 26 &&
           output[2]["name"] == "Carol" &&
           output.last["age"] == 31;
     },
@@ -1033,9 +1169,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instuksi 1
+      String input = "42";
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == 42;
+      return output == 42;
     },
     // Exercise 82
     () {
@@ -1043,9 +1186,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instuksi 1
+      String input = "0";
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == 0;
+      return output == 0;
     },
     // Exercise 83
     () {
@@ -1053,9 +1203,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instuksi 1
+      String input = "-99";
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == -99;
+      return output == -99;
     },
     // Exercise 84
     () {
@@ -1063,9 +1220,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instuksi 1
+      double input = 3.14;
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = input.toInt();
       // --- End of Answer ---
-      return output is int && output == 3;
+      return output == 3;
     },
     // Exercise 85
     () {
@@ -1073,9 +1237,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instuksi 1
+      double input = 9.99;
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = input.toInt();
       // --- End of Answer ---
-      return output is int && output == 9;
+      return output == 9;
     },
     // Exercise 86
     () {
@@ -1083,9 +1254,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instuksi 1
+      double input = 5.5;
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = input.toInt();
       // --- End of Answer ---
-      return output is int && output == 5;
+      return output == 5;
     },
     // Exercise 87
     () {
@@ -1093,9 +1271,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instuksi 1
+      bool input = true;
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = input ? 1 : 0;
       // --- End of Answer ---
-      return output is int && output == 1;
+      return output == 1;
     },
     // Exercise 88
     () {
@@ -1103,9 +1288,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instruksi 1
+      bool input = false;
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = input ? 1 : 0;
       // --- End of Answer ---
-      return output is int && output == 0;
+      return output == 0;
     },
     // Exercise 89
     () {
@@ -1113,9 +1305,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // instruksi 1
+      bool input = true;
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = input ? 1 : 0;
       // --- End of Answer ---
-      return output is int && output == 1;
+      return output == 1;
     },
     // Exercise 90
     () {
@@ -1123,9 +1322,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel int? output;
       // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "123";
 
+      // instruksi 2
+      int? output;
+
+      // instruksi 3
+      output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == 123;
+      return output == 123;
     },
     // Exercise 91
     () {
@@ -1133,9 +1339,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "3.14";
 
+      // instruksi 2
+      double? output;
+
+      // instruksi 3
+      output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 3.14;
+      return output == 3.14;
     },
     // Exercise 92
     () {
@@ -1143,9 +1356,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "9.99";
 
+      // instruksi 2
+      double? output;
+
+      // instruksi 3
+      output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 9.99;
+      return output == 9.99;
     },
     // Exercise 93
     () {
@@ -1153,9 +1373,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "5.5";
 
+      // instruksi 2
+      double? output;
+
+      // instruksi 3
+      output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 5.5;
+      return output == 5.5;
     },
     // Exercise 94
     () {
@@ -1163,9 +1390,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "true";
 
+      // instruksi 2
+      bool? output;
+
+      // instruksi 3
+      output = bool.parse(input);
       // --- End of Answer ---
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 95
     () {
@@ -1173,9 +1407,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "false";
 
+      // instruksi 2
+      bool? output;
+
+      // instruksi 3
+      output = bool.parse(input);
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 96
     () {
@@ -1183,9 +1424,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "0";
 
+      // instruksi 2
+      bool? output;
+
+      // instruksi 3
+      output = input == "0" ? false : true;
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 97
     () {
@@ -1193,9 +1441,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //instruksi 1
+      String input = "Hello, World!";
 
+      //instruksi 2
+      String? output;
+
+      //instruksi 3
+      output = input;
       // --- End of Answer ---
-      return output is String && output == "Hello, World!";
+      return output == "Hello, World!";
     },
     // Exercise 98
     () {
@@ -1203,9 +1458,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      int input = 2022;
 
+      // Insruksi 2
+      String? output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "2022";
+      return output == "2022";
     },
     // Exercise 99
     () {
@@ -1213,9 +1475,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      double input = 3.14159;
 
+      // Instruksi 2
+      String? output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "3.14159";
+      return output == "3.14159";
     },
     // Exercise 100
     () {
@@ -1223,9 +1492,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dengan format "yyyy-MM-dd" dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      DateTime input = DateTime(2023, 8, 9);
 
+      // Instruksi 2
+      String? output;
+
+      // Instruksi 3
+      output =
+          "${input.year}-${input.month.toString().padLeft(2, '0')}-${input.day.toString().padLeft(2, '0')}";
       // --- End of Answer ---
-      return output is String && output == "2023-08-09";
+      return output == "2023-08-09";
     },
     // Exercise 101
     () {
@@ -1233,9 +1510,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "true";
 
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = input.toLowerCase() == 'true';
       // --- End of Answer ---
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 102
     () {
@@ -1243,9 +1527,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "false";
 
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = input.toLowerCase() == 'true';
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 103
     () {
@@ -1253,9 +1544,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "0";
 
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = input == '1';
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 104
     () {
@@ -1263,9 +1561,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      bool input = true;
 
+      // Instruksi 2
+      String? output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "true";
+      return output == "true";
     },
     // Exercise 105
     () {
@@ -1273,9 +1578,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      bool input = false;
 
+      // Instruksi 2
+      String? output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "false";
+      return output == "false";
     },
     // Exercise 106
     () {
@@ -1283,9 +1595,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      int input = 42;
 
+      // Instruksi 2
+      String? output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "42";
+      return output == "42";
     },
     // Exercise 107
     () {
@@ -1293,9 +1612,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      double input = 3.14;
 
+      // Instruksi 2
+      String? output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "3.14";
+      return output == "3.14";
     },
     // Exercise 108
     () {
@@ -1303,7 +1629,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "9.99";
 
+      // Instruksi 2
+      double? output;
+
+      // Instruksi 3
+      output = double.tryParse(input);
       // --- End of Answer ---
       return output is double && output == 9.99;
     },
@@ -1313,7 +1646,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "3.14";
 
+      // Instruksi 2
+      double? output;
+
+      // Instruksi 3
+      output = double.tryParse(input);
       // --- End of Answer ---
       return output is double && output == 3.14;
     },
@@ -1323,7 +1663,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "5.5";
 
+      // Instruksi 2
+      double? output;
+
+      // Instruksi 3
+      output = double.tryParse(input);
       // --- End of Answer ---
       return output is double && output == 5.5;
     },
@@ -1333,9 +1680,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "true";
 
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = input.toLowerCase() == 'true';
       // --- End of Answer ---
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 112
     () {
@@ -1343,9 +1697,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "false";
 
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = (input.toLowerCase() == "true");
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 113
     () {
@@ -1353,7 +1714,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "0";
 
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = input == '0' ? false : null;
       // --- End of Answer ---
       return output is bool && output == false;
     },
@@ -1363,9 +1731,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      bool input = true;
 
+      // Instruksi 2
+      String output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "true";
+      return output == "true";
     },
     // Exercise 115
     () {
@@ -1373,9 +1748,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      bool input = false;
 
+      // Instruksi 2
+      String output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "false";
+      return output == "false";
     },
     // Exercise 116
     () {
@@ -1383,9 +1765,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Insruksi 1
+      int input = 42;
 
+      // Instruksi 2
+      String output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "42";
+      return output == "42";
     },
     // Exercise 117
     () {
@@ -1393,9 +1782,16 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      double input = 3.14;
 
+      // Instruksi 2
+      String output;
+
+      // Instruksi 3
+      output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "3.14";
+      return output == "3.14";
     },
     // Exercise 118
     () {
@@ -1403,7 +1799,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "9.99";
 
+      // Instruksi 2
+      double? output;
+
+      // Instruksi 3
+      output = double.tryParse(input);
       // --- End of Answer ---
       return output is double && output == 9.99;
     },
@@ -1413,7 +1816,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "3.14";
 
+      // Instruksi 2
+      double? output;
+
+      // Instruksi 3
+      output = double.tryParse(input);
       // --- End of Answer ---
       return output is double && output == 3.14;
     },
@@ -1423,7 +1833,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "5.5";
 
+      // Instruksi 2
+      double? output;
+
+      // Instuksi 3
+      output = double.tryParse(input);
       // --- End of Answer ---
       return output is double && output == 5.5;
     },
@@ -1433,7 +1850,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "2023-08-09";
 
+      // Instruksi 2
+      DateTime? output;
+
+      // Instruksi 3
+      output = DateTime.tryParse(input);
       // --- End of Answer ---
       return output is DateTime &&
           output.year == 2023 &&
@@ -1446,7 +1870,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "1999-12-31";
 
+      // Instruksi 2
+      DateTime? output;
+
+      // Instruksi 3
+      output = DateTime.tryParse(input);
       // --- End of Answer ---
       return output is DateTime &&
           output.year == 1999 &&
@@ -1459,7 +1890,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "2022-01-15";
 
+      // Instruksi 2
+      DateTime? output;
+
+      // Instruksi 3
+      output = DateTime.tryParse(input);
       // --- End of Answer ---
       return output is DateTime &&
           output.year == 2022 &&
@@ -1472,7 +1910,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "1987-05-25";
 
+      // Instruksi 2
+      DateTime? output;
+
+      // Instruksi 3
+      output = DateTime.tryParse(input);
       // --- End of Answer ---
       return output is DateTime &&
           output.year == 1987 &&
@@ -1485,7 +1930,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "2025-10-01";
 
+      // Instruksi 2
+      DateTime? output;
+
+      // Instruksi 3
+      output = DateTime.tryParse(input);
       // --- End of Answer ---
       return output is DateTime &&
           output.year == 2025 &&
@@ -1498,12 +1950,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<int>? output;
       // ? Instruksi 3: Konversi input menjadi List<int> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<int> input = [1, 2, 3, 4, 5];
+
+      // Instruksi 2
+      List<int>? output;
+
+      // Instruksi 3
+      output = List<int>.from(input);
 
       // --- End of Answer ---
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 1 &&
-          output[4] == 5;
+      return output.length == 5 && output[0] == 1 && output[4] == 5;
     },
     // Exercise 127
     () {
@@ -1511,10 +1968,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<String>? output;
       // ? Instruksi 3: Konversi input menjadi List<String> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<String> input = ["apple", "banana", "cherry"];
+
+      // Instruksi 2
+      List<String>? output;
+
+      // Instruksi 3
+      output = List<String>.from(input);
 
       // --- End of Answer ---
-      return output is List<String> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output[0] == "apple" &&
           output[2] == "cherry";
     },
@@ -1524,12 +1988,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<double>? output;
       // ? Instruksi 3: Konversi input menjadi List<double> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<double> input = [3.14, 2.71, 1.618];
+
+      // Instruksi 2
+      List<double>? output;
+
+      // Instruksi 3
+      output = List<double>.from(input);
 
       // --- End of Answer ---
-      return output is List<double> &&
-          output.length == 3 &&
-          output[0] == 3.14 &&
-          output[2] == 1.618;
+      return output.length == 3 && output[0] == 3.14 && output[2] == 1.618;
     },
     // Exercise 129
     () {
@@ -1537,10 +2006,18 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel Map<String, int>? output;
       // ? Instruksi 3: Konversi input menjadi Map<String, int> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      Map<String, int> input = {"apple": 2, "banana": 3, "cherry": 5};
+
+      // Instruksi 2
+      Map<String, int>? output;
+
+      // Instruksi 3
+      output = Map<String, int>.from(input);
 
       // --- End of Answer ---
-      return output is Map<String, int> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["apple"] == 2 &&
           output["cherry"] == 5;
     },
@@ -1550,10 +2027,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel Map<String, double>? output;
       // ? Instruksi 3: Konversi input menjadi Map<String, double> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      Map<String, double> input = {"pi": 3.14, "e": 2.71, "phi": 1.618};
+
+      // Instruksi 2
+      Map<String, double>? output;
+
+      // Instruksi 3
+      output = Map<String, double>.from(input);
 
       // --- End of Answer ---
-      return output is Map<String, double> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["pi"] == 3.14 &&
           output["phi"] == 1.618;
     },
@@ -1563,10 +2047,21 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel Map<String, dynamic>? output;
       // ? Instruksi 3: Konversi input menjadi Map<String, dynamic> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      Map<String, dynamic> input = {
+        "name": "John",
+        "age": 30,
+        "isStudent": true
+      };
+
+      // Instruksi 2
+      Map<String, dynamic>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["name"] == "John" &&
           output["isStudent"] == true;
     },
@@ -1576,10 +2071,21 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel Map<String, dynamic>? output;
       // ? Instruksi 3: Konversi input menjadi Map<String, dynamic> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      Map<String, dynamic> input = {
+        "title": "Book",
+        "price": 20.99,
+        "isAvailable": false
+      };
+
+      // Instruksi 2
+      Map<String, dynamic>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["title"] == "Book" &&
           output["price"] == 20.99;
     },
@@ -1589,10 +2095,21 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, int>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, int>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, int>> input = [
+        {"score": 90},
+        {"score": 85},
+        {"score": 95}
+      ];
+
+      // Instruksi 2
+      List<Map<String, int>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, int>> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output[0]["score"] == 90 &&
           output[2]["score"] == 95;
     },
@@ -1602,10 +2119,21 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"name": "Alice"},
+        {"name": "Bob"},
+        {"name": "Charlie"}
+      ];
+
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output[0]["name"] == "Alice" &&
           output[2]["name"] == "Charlie";
     },
@@ -1615,10 +2143,20 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"city": "New York", "population": 8378394},
+        {"city": "Los Angeles", "population": 3990456}
+      ];
+
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["city"] == "New York" &&
           output[1]["population"] == 3990456;
     },
@@ -1628,10 +2166,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"name": "Alice", "age": 25},
+        {"name": "Bob", "age": 30}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["name"] == "Alice" &&
           output[1]["age"] == 30;
     },
@@ -1641,10 +2188,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"country": "USA", "capital": "Washington, D.C."},
+        {"country": "Canada", "capital": "Ottawa"}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["country"] == "USA" &&
           output[1]["capital"] == "Ottawa";
     },
@@ -1654,10 +2210,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"code": "A1", "value": 10},
+        {"code": "B2", "value": 20}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["code"] == "A1" &&
           output[1]["value"] == 20;
     },
@@ -1667,10 +2232,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"item": "Apple", "price": 1.99},
+        {"item": "Banana", "price": 0.99}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["item"] == "Apple" &&
           output[1]["price"] == 0.99;
     },
@@ -1680,10 +2254,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"name": "Alice", "age": 25},
+        {"name": "Bob", "age": 30}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["name"] == "Alice" &&
           output[1]["age"] == 30;
     },
@@ -1693,10 +2276,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"city": "New York", "population": 8378394},
+        {"city": "Los Angeles", "population": 3990456}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["city"] == "New York" &&
           output[1]["population"] == 3990456;
     },
@@ -1706,10 +2298,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"country": "USA", "capital": "Washington, D.C."},
+        {"country": "Canada", "capital": "Ottawa"}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["country"] == "USA" &&
           output[1]["capital"] == "Ottawa";
     },
@@ -1719,10 +2320,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"code": "A1", "value": 10},
+        {"code": "B2", "value": 20}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["code"] == "A1" &&
           output[1]["value"] == 20;
     },
@@ -1732,10 +2342,19 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
       // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      List<Map<String, dynamic>> input = [
+        {"item": "Apple", "price": 1.99},
+        {"item": "Banana", "price": 0.99}
+      ];
+      // Instruksi 2
+      List<Map<String, dynamic>>? output;
+
+      // Instruksi 3
+      output = input;
 
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 2 &&
+      return output.length == 2 &&
           output[0]["item"] == "Apple" &&
           output[1]["price"] == 0.99;
     },
@@ -1745,6 +2364,15 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Gunakan operator conditional Jika input["age"] == 25, atur nilai output menjadi true
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      // Instruksi 1
+      Map<String, dynamic> input = {"name": "Alice", "age": 25};
+
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = (input["age"] == 25) ? true : null;
 
       // --- End of Answer ---
       return output == true;
@@ -1755,6 +2383,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Gunakan operator conditional Jika input["isDiscounted"] == 1, atur nilai output menjadi true
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      Map<String, dynamic> input = {"amount": 20.5, "isDiscounted": 1};
+
+      // Instruksi 2
+      bool? output;
+
+      // Instruksi 3
+      output = input["isDiscounted"] == 1 ? true : null;
 
       // --- End of Answer ---
       return output == true;
@@ -1765,6 +2401,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Gunakan operator conditional Jika input["isActive"] == "true", atur nilai output menjadi true
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi 1
+      Map<String, dynamic> input = {"isActive": "true"};
+
+      //  Instruksi 2
+      bool? output;
+
+      //  Instruksi 3
+      output = input["isActive"] == "true";
 
       // --- End of Answer ---
       return output == true;
@@ -1775,6 +2419,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Gunakan operator conditional Jika input["hasPermission"] == "false", atur nilai output menjadi true
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi 1
+      Map<String, dynamic> input = {"hasPermission": "false"};
+
+      //  Instruksi 2
+      bool? output;
+
+      //  Instruksi 3
+      output = input["hasPermission"] == "false";
 
       // --- End of Answer ---
       return output == true;
@@ -1785,7 +2437,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Gunakan operator conditional Jika input["isAvailable"] == "1", atur nilai output menjadi true
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi 1
+      Map<String, dynamic> input = {"isAvailable": "1"};
 
+      //  Instruksi 2
+      bool? output;
+
+      //  Instruksi 3
+      output = input["isAvailable"] == "1";
       // --- End of Answer ---
       return output == true;
     },
@@ -1795,6 +2454,14 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel bool? output;
       // ? Instruksi 3: Gunakan operator conditional Jika input["isEnabled"] == "0", atur nilai output menjadi true
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi 1
+      Map<String, dynamic> input = {"isEnabled": "0"};
+
+      //  Instruksi 2
+      bool? output;
+
+      //  Instruksi 3
+      output = input["isEnabled"] == "0";
 
       // --- End of Answer ---
       return output == true;
@@ -1805,10 +2472,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<String>? output;
       // ? Instruksi 3: Konversi nilai dari input menjadi List<String> dengan memisahkan string berdasarkan koma (",") dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "apple,banana,orange";
+
+      // Instruksi 2
+      List<String>? output;
+
+      // Instruksi 3
+      output = input.split(',');
 
       // --- End of Answer ---
-      return output is List<String> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("orange");
@@ -1819,10 +2493,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<int>? output;
       // ? Instruksi 3: Konversi nilai dari input menjadi List<int> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi integer, kemudian tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "42,38,56,29";
+
+      // Instruksi 2
+      List<int>? output;
+
+      // Instruksi 3
+      output = input.split(',').map(int.parse).toList();
 
       // --- End of Answer ---
-      return output is List<int> &&
-          output.length == 4 &&
+      return output.length == 4 &&
           output.contains(42) &&
           output.contains(38) &&
           output.contains(56) &&
@@ -1834,10 +2515,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<bool>? output;
       // ? Instruksi 3: Konversi nilai dari input menjadi List<bool> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi boolean, kemudian tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "true,false,true,false";
+
+      // Instruksi 2
+      List<bool>? output;
+
+      // Instruksi 3
+      output = input.split(',').map(bool.parse).toList();
 
       // --- End of Answer ---
-      return output is List<bool> &&
-          output.length == 4 &&
+      return output.length == 4 &&
           output.contains(true) &&
           output.contains(false);
     },
@@ -1847,10 +2535,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<double>? output;
       // ? Instruksi 3: Konversi nilai dari input menjadi List<double> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi double, kemudian tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "3.14,2.718,1.618";
+
+      // Instruksi 2
+      List<double>? output;
+
+      // Instruksi 3
+      output = input.split(',').map(double.parse).toList();
 
       // --- End of Answer ---
-      return output is List<double> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(3.14) &&
           output.contains(2.718) &&
           output.contains(1.618);
@@ -1861,9 +2556,17 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel List<DateTime>? output;
       // ? Instruksi 3: Konversi nilai dari input menjadi List<DateTime> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi DateTime, kemudian tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi 1
+      String input = "2022-01-01,2023-05-15,2024-10-30";
+
+      // Instruksi 2
+      List<DateTime>? output;
+
+      // Instruksi 3
+      output = input.split(',').map(DateTime.parse).toList();
 
       // --- End of Answer ---
-      return output is List<DateTime> && output.length == 3;
+      return output.length == 3;
     },
     // Exercise 156
     () {
@@ -1871,6 +2574,14 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi input menjadi List<int> dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      String input = "1,2,3,4,5";
+
+      //  Instruksi
+      List<int>? output;
+
+      //  Instruksi
+      output = input.split(',').map(int.parse).toList();
 
       // --- End of Answer ---
 
@@ -1882,10 +2593,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel double? output;
       // ? Instruksi: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      String input = "3.14";
+
+      //  Instruksi
+      double? output;
+
+      //  Instruksi
+      output = double.parse(input);
 
       // --- End of Answer ---
 
-      return output is double && output == 3.14;
+      return output == 3.14;
     },
     // Exercise 158
     () {
@@ -1893,10 +2612,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi bool dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      String input = "true";
+
+      //  Instruksi
+      bool? output;
+
+      //  Instruksi
+      output = bool.parse(input);
 
       // --- End of Answer ---
 
-      return output is bool && output;
+      return output;
     },
     // Exercise 159
     () {
@@ -1904,10 +2631,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      int input = 42;
+
+      //  Instruksi
+      String? output;
+
+      //  Instruksi
+      output = input.toString();
 
       // --- End of Answer ---
 
-      return output is String && output == "42";
+      return output == "42";
     },
     // Exercise 160
     () {
@@ -1915,10 +2650,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel String? output;
       // ? Instruksi: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      double input = 3.14;
+
+      //  Instruksi
+      String? output;
+
+      //  Instruksi
+      output = input.toString();
 
       // --- End of Answer ---
 
-      return output is String && output == "3.14";
+      return output == "3.14";
     },
     // Exercise 161
     () {
@@ -1926,10 +2669,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi String dan cek apakah string "3" terdapat dalam output
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      List<int> input = [1, 2, 3, 4, 5];
+
+      //  Instruksi
+      bool? output;
+
+      //  Instruksi
+      output = input.toString().contains('3');
 
       // --- End of Answer ---
 
-      return output is bool && output;
+      return output;
     },
     // Exercise 162
     () {
@@ -1937,10 +2688,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi String dan cek apakah string "grape" terdapat dalam output
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      List<String> input = ["apple", "banana", "cherry"];
+
+      //  Instruksi
+      bool? output;
+
+      //  Instruksi
+      output = input.contains("grape");
 
       // --- End of Answer ---
 
-      return output is bool && !output;
+      return !output;
     },
     // Exercise 163
     () {
@@ -1948,11 +2707,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi List<String> dengan mengubah setiap elemen menjadi string
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      List<int> input = [10, 20, 30, 40, 50];
+
+      //  Instruksi
+      List<String>? output;
+
+      //  Instruksi
+      output = input.map((e) => e.toString()).toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.every((element) => element is String);
+      return output.every((element) => element is String);
     },
     // Exercise 164
     () {
@@ -1960,11 +2726,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi List<String> dengan mengambil semua kunci (keys) dari map
       // >>> Tulis jawabanmu di bawah ini
+      //  Instruksi
+      Map<String, int> input = {"apple": 3, "banana": 2};
+
+      //  Instruksi
+      List<String>? output;
+
+      //  Instruksi
+      output = input.keys.toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.every((element) => element is String);
+      return output.every((element) => element is String);
     },
     // Exercise 165
     () {
@@ -1972,11 +2745,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi List<int> dengan mengambil semua nilai (values) dari map
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      Map<int, String> input = {1: "one", 2: "two"};
+
+      // Instruksi
+      List<String> output;
+
+      // Instruksi
+      output = input.values.toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.every((element) => element is String);
+      return output.every((element) => element is String);
     },
     // Exercise 166
     () {
@@ -1984,10 +2764,21 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi List<int> dengan mengambil semua nilai dari map-map di dalam list
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<Map<String, int>> input = [
+        {"apple": 3},
+        {"banana": 2}
+      ];
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.map((map) => map.values.first).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> && output.every((element) => element is int);
+      return output.every((element) => element is int);
     },
     // Exercise 167
     () {
@@ -1995,6 +2786,14 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi List<dynamic> dengan mengambil semua nilai dari map
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      Map<String, dynamic> input = {"age": 25, "name": "John"};
+
+      // Instruksi
+      List<dynamic>? output;
+
+      // Instruksi
+      output = input.values.toList();
 
       // --- End of Answer ---
 
@@ -2006,10 +2805,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi Map<String, int> dengan mengubah setiap elemen menjadi pasangan kunci "number" dan nilai elemen
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<int> input = [1, 2, 3, 4, 5];
 
+      // Instruksi
+      Map<String, int>? output = {"number": input.first};
+
+      // Instruksi
+      return output.containsKey("number");
       // --- End of Answer ---
 
-      return output is Map<String, int> && output.containsKey("number");
+      return output.containsKey("number");
+      // --- End of Answer ---
     },
     // Exercise 169
     () {
@@ -2017,6 +2824,20 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi Map<String, String> dengan mengubah setiap elemen menjadi pasangan kunci dan nilai yang sama
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<Map<String, int>> input = [
+        {"apple": 3},
+        {"banana": 2}
+      ];
+
+      // Instruksi
+      Map<String, int>? output = input.first;
+
+      // Instruksi
+      return output is Map<String, int>;
+      // --- End of Answer ---
+
+      return output is Map<String, String>;
 
       // --- End of Answer ---
 
@@ -2028,10 +2849,21 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel bool? output;
       // ? Instruksi: Konversi input menjadi Map<String, int> dengan mengambil pasangan kunci "apple" dan nilai dari map pertama dalam list
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<Map<String, int>> input = [
+        {"apple": 3},
+        {"banana": 2}
+      ];
 
+      // Instruksi
+      Map<String, int>? output = input.first;
+
+      // Instruksi
+      return output is Map<String, int>;
       // --- End of Answer ---
 
-      return output is Map<String, int> && output.containsKey("apple");
+      return output.containsKey('apple');
+      // --- End of Answer ---
     },
     // Exercise 171
     () {
@@ -2040,10 +2872,21 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel String? output;
       // ? Instruksi: Gabungkan input1 dan input2 menjadi satu string dan simpan dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input1 = "Hello";
+
+      // Instruksi
+      String input2 = "world";
+
+      // Instruksi
+      String? output;
+
+      // Instruksi
+      output = "$input1 $input2";
 
       // --- End of Answer ---
 
-      return output is String && output == "Hello world";
+      return output == "Hello world";
     },
     // Exercise 172
     () {
@@ -2051,10 +2894,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel String? output;
       // ? Instruksi: Ganti kata "John" menjadi "Alice" dalam input dan simpan dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "Hello, my name is John";
+
+      // Instruksi
+      String? output;
+
+      // Instruksi
+      output = input.replaceAll("John", "Alice");
 
       // --- End of Answer ---
 
-      return output is String && output == "Hello, my name is Alice";
+      return output == "Hello, my name is Alice";
     },
     // Exercise 173
     () {
@@ -2062,12 +2913,19 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi input menjadi List<String> dengan memisahkan string berdasarkan koma (",")
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",");
+      // --- End of Answer ---
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 3 &&
-          output.every((element) => element is String);
+      return output.length == 3 && output.every((element) => element is String);
     },
     // Exercise 174
     () {
@@ -2075,12 +2933,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi input menjadi List<int> dengan mengubah setiap elemen menjadi integer
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "10,20,30,40,50";
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.split(",").map(int.parse).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output.every((element) => element is int);
+      return output.length == 5 && output.every((element) => element is int);
     },
     // Exercise 175
     () {
@@ -2088,12 +2952,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<double>? output;
       // ? Instruksi: Konversi input menjadi List<double> dengan mengubah setiap elemen menjadi double
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "1.5,2.5,3.5";
+
+      // Instruksi
+      List<double>? output;
+
+      // Instruksi
+      output = input.split(",").map(double.parse).toList();
 
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 3 &&
-          output.every((element) => element is double);
+      return output.length == 3 && output.every((element) => element is double);
     },
     // Exercise 176
     () {
@@ -2101,12 +2971,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<bool>? output;
       // ? Instruksi: Konversi input menjadi List<bool> dengan mengubah setiap elemen menjadi boolean
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "true,false,true";
+
+      // Instruksi
+      List<bool>? output;
+
+      // Instruksi
+      output = input.split(",").map((e) => e == 'true').toList();
 
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 3 &&
-          output.every((element) => element is bool);
+      return output.length == 3 && output.every((element) => element is bool);
     },
     // Exercise 177
     () {
@@ -2114,11 +2990,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<DateTime>? output;
       // ? Instruksi: Konversi input menjadi List<DateTime> dengan mengubah setiap elemen menjadi DateTime
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "2022-08-01,2023-01-15,2021-05-10";
+
+      // Instruksi
+      List<DateTime>? output;
+
+      // Instruksi
+      output = input.split(",").map((e) => DateTime.parse(e)).toList();
 
       // --- End of Answer ---
 
-      return output is List<DateTime> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.every((element) => element is DateTime);
     },
     // Exercise 178
@@ -2127,10 +3010,13 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<String, int>? output;
       // ? Instruksi: Konversi input menjadi Map<String, int> dengan mengubah setiap elemen menjadi pasangan kunci "fruit" dan nilai 1
       // >>> Tulis jawabanmu di bawah ini
-
+      String input = "apple,banana,cherry";
+      List<String> fruits = input.split(",");
+      Map<String, int>? output = {for (var fruit in fruits) fruit: 1};
+      return output.length == 3;
       // --- End of Answer ---
 
-      return output is Map<String, int> && output.length == 3;
+      return output.length == 3;
     },
     // Exercise 179
     () {
@@ -2138,10 +3024,20 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<int, String>? output;
       // ? Instruksi: Konversi input menjadi Map<int, String> dengan mengubah setiap elemen menjadi pasangan kunci integer dan nilai "value"
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "10,20,30";
+
+      // Instruksi
+      Map<int, String>? output;
+
+      // Instruksi
+      output = {
+        for (var element in input.split(",")) int.parse(element): "value"
+      };
 
       // --- End of Answer ---
 
-      return output is Map<int, String> && output.length == 3;
+      return output.length == 3;
     },
     // Exercise 180
     () {
@@ -2149,11 +3045,22 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi input menjadi List<int> dengan mengambil nilai dari setiap map dalam list
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<Map<String, int>> input = [
+        {"apple": 3},
+        {"banana": 2},
+        {"cherry": 1}
+      ];
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.map((map) => map.values.first).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(3) &&
           output.contains(2) &&
           output.contains(1);
@@ -2164,10 +3071,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel String? output;
       // ? Instruksi: Ganti kata "world" menjadi "Dart" dalam input dan simpan dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "Hello, world!";
+
+      // Instruksi
+      String? output;
+
+      // Instruksi
+      output = input.replaceAll("world", "Dart");
 
       // --- End of Answer ---
 
-      return output is String && output == "Hello, Dart!";
+      return output == "Hello, Dart!";
     },
     // Exercise 182
     () {
@@ -2175,10 +3090,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel String? output;
       // ? Instruksi: Ganti semua kata "apple" menjadi "orange" dalam input dan simpan dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,apple,apple,cherry";
+
+      // Instruksi
+      String? output;
+
+      // Instruksi
+      output = input.replaceAll("apple", "orange");
 
       // --- End of Answer ---
 
-      return output is String && output == "orange,banana,orange,orange,cherry";
+      return output == "orange,banana,orange,orange,cherry";
     },
     // Exercise 183
     () {
@@ -2187,11 +3110,21 @@ class TechnicalTest {
       // ? Instruksi: Konversi input menjadi List<int> dengan mengubah setiap elemen menjadi integer
       // ? Instruksi: Ganti semua angka yang habis dibagi 2 dengan nilai 0 dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "1,2,3,4,5";
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.split(",").map((e) => int.parse(e)).toList();
+
+      // Instruksi
+      output = output.map((e) => e % 2 == 0 ? 0 : e).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(0) &&
           !output.contains(2) &&
           !output.contains(4);
@@ -2202,11 +3135,17 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<String, int>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi pasangan kunci "fruit" dan panjang string dalam map output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<String> input = ["apple", "banana", "cherry"];
 
+      // Instruksi
+      Map<String, int>? output;
+
+      // Instruksi
+      output = {for (var fruit in input) fruit: fruit.length};
       // --- End of Answer ---
 
-      return output is Map<String, int> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["apple"] == 5 &&
           output["banana"] == 6 &&
           output["cherry"] == 6;
@@ -2217,11 +3156,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<int, int>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi pasangan kunci integer dan kuadrat dari elemen dalam map output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<int> input = [1, 2, 3, 4, 5];
+
+      // Instruksi
+      Map<int, int>? output;
+
+      // Instruksi
+      output = {for (var number in input) number: number * number};
 
       // --- End of Answer ---
 
-      return output is Map<int, int> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[1] == 1 &&
           output[2] == 4 &&
           output[3] == 9 &&
@@ -2234,11 +3180,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<Map<String, int>>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi map dengan pasangan kunci "length" dan panjang string sebagai nilai, lalu tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<String> input = ["apple", "banana", "cherry"];
+
+      // Instruksi
+      List<Map<String, int>>? output = [];
+
+      // Instruksi
+      output = input.map((str) => {"length": str.length}).toList();
 
       // --- End of Answer ---
 
-      return output is List<Map<String, int>> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output[0]["length"] == 5 &&
           output[1]["length"] == 6 &&
           output[2]["length"] == 6;
@@ -2249,11 +3202,22 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi string "fruit" dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<Map<String, dynamic>> input = [
+        {"fruit": "apple"},
+        {"fruit": "banana"},
+        {"fruit": "cherry"}
+      ];
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.map((map) => map["fruit"] as String).toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("cherry");
@@ -2264,11 +3228,22 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi integer "amount" dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<Map<String, int>> input = [
+        {"amount": 5},
+        {"amount": 10},
+        {"amount": 3}
+      ];
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.map((map) => map["amount"]!).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(5) &&
           output.contains(10) &&
           output.contains(3);
@@ -2279,11 +3254,21 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi integer "value" dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<Map<String, dynamic>> input = [
+        {"value": 7},
+        {"value": 15},
+        {"value": 9}
+      ];
 
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.map((map) => map["value"] as int).toList();
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(7) &&
           output.contains(15) &&
           output.contains(9);
@@ -2294,11 +3279,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi integer dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      List<String> input = ["5", "10", "3"];
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.map((str) => int.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(5) &&
           output.contains(10) &&
           output.contains(3);
@@ -2309,11 +3301,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi integer dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "5,10,15,20,25";
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => int.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(5) &&
           output.contains(10) &&
           output.contains(15) &&
@@ -2326,11 +3325,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<double>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi double dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "5.5,10.5,15.5,20.5,25.5";
+
+      // Instruksi
+      List<double>? output;
+
+      // Instruksi
+      output = input.split(',').map((e) => double.parse(e)).toList();
 
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(5.5) &&
           output.contains(10.5) &&
           output.contains(15.5) &&
@@ -2343,11 +3349,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<bool>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi boolean dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "true,false,true,false,true";
+
+      // Instruksi
+      List<bool>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => str == "true").toList();
 
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(true) &&
           output.contains(false);
     },
@@ -2357,11 +3370,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi string dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,apple,banana,apple";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana");
     },
@@ -2371,11 +3391,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<DateTime>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi DateTime dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "2022-01-01,2023-02-02,2024-03-03";
+
+      // Instruksi
+      List<DateTime>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => DateTime.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<DateTime> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(DateTime(2022, 1, 1)) &&
           output.contains(DateTime(2023, 2, 2)) &&
           output.contains(DateTime(2024, 3, 3));
@@ -2386,11 +3413,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<int>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi integer dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "1,2,3,4,5";
+
+      // Instruksi
+      List<int>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => int.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(1) &&
           output.contains(2) &&
           output.contains(3) &&
@@ -2403,11 +3437,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<double>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi double dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "1.1,2.2,3.3,4.4,5.5";
+
+      // Instruksi
+      List<double>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => double.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(1.1) &&
           output.contains(2.2) &&
           output.contains(3.3) &&
@@ -2420,11 +3461,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<bool>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi boolean dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "true,false,true,false,true";
+
+      // Instruksi
+      List<bool>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => str == "true").toList();
 
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(true) &&
           output.contains(false);
     },
@@ -2434,11 +3482,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi string dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,apple,banana,apple";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana");
     },
@@ -2448,11 +3503,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<DateTime>? output;
       // ? Instruksi: Konversi setiap elemen dalam input menjadi DateTime dan tambahkan dalam list output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "2022-01-01,2023-02-02,2024-03-03";
+
+      // Instruksi
+      List<DateTime>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => DateTime.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<DateTime> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(DateTime(2022, 1, 1)) &&
           output.contains(DateTime(2023, 2, 2)) &&
           output.contains(DateTime(2024, 3, 3));
@@ -2463,11 +3525,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry,dates,elderberry";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("cherry") &&
@@ -2480,11 +3549,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<double>? output;
       // ? Instruksi: Konversi input menjadi list double dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "1.1,2.2,3.3,4.4,5.5";
+
+      // Instruksi
+      List<double>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => double.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(1.1) &&
           output.contains(2.2) &&
           output.contains(3.3) &&
@@ -2497,11 +3573,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<bool>? output;
       // ? Instruksi: Konversi input menjadi list boolean dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "true,false,true,false,true";
+
+      // Instruksi
+      List<bool>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => str == "true").toList();
 
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(true) &&
           output.contains(false);
     },
@@ -2511,11 +3594,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<DateTime>? output;
       // ? Instruksi: Konversi input menjadi list DateTime dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "2022-01-01,2023-02-02,2024-03-03";
+
+      // Instruksi
+      List<DateTime>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => DateTime.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<DateTime> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(DateTime(2022, 1, 1)) &&
           output.contains(DateTime(2023, 2, 2)) &&
           output.contains(DateTime(2024, 3, 3));
@@ -2526,11 +3616,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry,dates,elderberry";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("cherry") &&
@@ -2543,11 +3640,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry,dates,elderberry";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("cherry") &&
@@ -2560,11 +3664,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<double>? output;
       // ? Instruksi: Konversi input menjadi list double dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "1.1,2.2,3.3,4.4,5.5";
+
+      // Instruksi
+      List<double>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => double.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(1.1) &&
           output.contains(2.2) &&
           output.contains(3.3) &&
@@ -2577,11 +3688,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<bool>? output;
       // ? Instruksi: Konversi input menjadi list boolean dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "true,false,true,false,true";
+
+      // Instruksi
+      List<bool>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => str == "true").toList();
 
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(true) &&
           output.contains(false);
     },
@@ -2591,11 +3709,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<DateTime>? output;
       // ? Instruksi: Konversi input menjadi list DateTime dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "2022-01-01,2023-02-02,2024-03-03";
+
+      // Instruksi
+      List<DateTime>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => DateTime.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<DateTime> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(DateTime(2022, 1, 1)) &&
           output.contains(DateTime(2023, 2, 2)) &&
           output.contains(DateTime(2024, 3, 3));
@@ -2606,11 +3731,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry,dates,elderberry";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("cherry") &&
@@ -2623,11 +3755,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry,dates,elderberry";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("cherry") &&
@@ -2640,11 +3779,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<double>? output;
       // ? Instruksi: Konversi input menjadi list double dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "1.1,2.2,3.3,4.4,5.5";
+
+      // Instruksi
+      List<double>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => double.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(1.1) &&
           output.contains(2.2) &&
           output.contains(3.3) &&
@@ -2657,11 +3803,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<bool>? output;
       // ? Instruksi: Konversi input menjadi list boolean dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "true,false,true,false,true";
+
+      // Instruksi
+      List<bool>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => str == "true").toList();
 
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains(true) &&
           output.contains(false);
     },
@@ -2671,11 +3824,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<DateTime>? output;
       // ? Instruksi: Konversi input menjadi list DateTime dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "2022-01-01,2023-02-02,2024-03-03";
+
+      // Instruksi
+      List<DateTime>? output;
+
+      // Instruksi
+      output = input.split(",").map((str) => DateTime.parse(str)).toList();
 
       // --- End of Answer ---
 
-      return output is List<DateTime> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output.contains(DateTime(2022, 1, 1)) &&
           output.contains(DateTime(2023, 2, 2)) &&
           output.contains(DateTime(2024, 3, 3));
@@ -2686,11 +3846,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel List<String>? output;
       // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry,dates,elderberry";
+
+      // Instruksi
+      List<String>? output;
+
+      // Instruksi
+      output = input.split(",").toList();
 
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output.contains("apple") &&
           output.contains("banana") &&
           output.contains("cherry") &&
@@ -2703,11 +3870,15 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<String, int>? output;
       // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan kata dan values berdasarkan panjang kata, tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple,banana,cherry,dates,elderberry";
+
+      // Instruksi
+      Map<String, int>? output = {for (var e in input.split(",")) e: e.length};
 
       // --- End of Answer ---
 
-      return output is Map<String, int> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output["apple"] == 5 &&
           output["banana"] == 6 &&
           output["cherry"] == 6 &&
@@ -2720,11 +3891,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<String, int>? output;
       // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan jumlahnya, tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple:100,banana:200,cherry:300";
+
+      // Instruksi
+      Map<String, int>? output = {
+        for (var pair in input.split(","))
+          pair.split(":")[0]: int.parse(pair.split(":")[1])
+      };
 
       // --- End of Answer ---
 
-      return output is Map<String, int> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["apple"] == 100 &&
           output["banana"] == 200 &&
           output["cherry"] == 300;
@@ -2735,11 +3913,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<String, double>? output;
       // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan angka, tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple:1.1,banana:2.2,cherry:3.3";
+
+      // Instruksi
+      Map<String, double>? output = {
+        for (var pair in input.split(","))
+          pair.split(":")[0]: double.parse(pair.split(":")[1])
+      };
 
       // --- End of Answer ---
 
-      return output is Map<String, double> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["apple"] == 1.1 &&
           output["banana"] == 2.2 &&
           output["cherry"] == 3.3;
@@ -2750,11 +3935,18 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<String, bool>? output;
       // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan nilai boolean, tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple:true,banana:false,cherry:true";
+
+      // Instruksi
+      Map<String, bool>? output = {
+        for (var pair in input.split(","))
+          pair.split(":")[0]: pair.split(":")[1] == "true"
+      };
 
       // --- End of Answer ---
 
-      return output is Map<String, bool> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["apple"] == true &&
           output["banana"] == false &&
           output["cherry"] == true;
@@ -2765,11 +3957,17 @@ class TechnicalTest {
       // ? Instruksi: Buatlah variabel Map<String, DateTime>? output;
       // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan tanggal, tampung dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
+      // Instruksi
+      String input = "apple:2022-01-01,banana:2023-02-02,cherry:2024-03-03";
 
+      // Instruksi
+      Map<String, DateTime>? output = {
+        for (var pair in input.split(","))
+          pair.split(":")[0]: DateTime.parse(pair.split(":")[1])
+      };
       // --- End of Answer ---
 
-      return output is Map<String, DateTime> &&
-          output.length == 3 &&
+      return output.length == 3 &&
           output["apple"] == DateTime(2022, 1, 1) &&
           output["banana"] == DateTime(2023, 2, 2) &&
           output["cherry"] == DateTime(2024, 3, 3);
@@ -2778,7 +3976,8 @@ class TechnicalTest {
     () {
       //Ubah tipe data variable dibawah ini menjadi String
       int price = 100;
-      return price is String;
+      String priceString = price.toString();
+      return priceString is String;
     },
 
     // Exercise 222
@@ -2788,18 +3987,22 @@ class TechnicalTest {
       //Ubahlah variable text di atas menjadi double,
       //dan isilah varibel price dengan hasil konversinya
       //di bagian bawah
+      price = double.tryParse(text);
+
       return price == 100.24;
     },
 
     // Exercise 223
     () {
       double? price;
+      String text = "300.24a";
+      text = text.replaceAll(RegExp(r'[^\d.]'), '');
+      price = double.tryParse(text);
       //Uncomment kode dibawah ini
       //Perbaiki kode-nya agar tidak error
       //[TIPS] Hilangkan semua String selain angka 0-9 dan titik.
       //Gunakan Regex seperti ini: .replaceAll(RegExp(r'[^\d.]'), '')
 
-      String text = "300.24a";
       // price = double.tryParse(text) ?? 0;
       return price == 300.24;
     },
@@ -2808,13 +4011,14 @@ class TechnicalTest {
     () {
       int input = 12;
       // Tuliskan kode untuk memverifikasi apakah input adalah bilangan ganjil
-      bool? output;
+      bool? output = input % 2 != 0;
       return output == false;
     },
 
     // Exercise 225
     () {
       double? total;
+      total = double.tryParse("300aa") ?? 0;
 
       //Uncomment kode dibawah ini!
       //Kode dibawah akan error jika di jalankan,
@@ -2829,7 +4033,7 @@ class TechnicalTest {
     // Exercise 226
     () {
       int? age;
-
+      age = int.tryParse("39ads") ?? 0;
       //Uncomment kode dibawah ini!
       //Kode dibawah akan error jika di jalankan,
       //Perbaiki dengan meng-gunakan .tryParse("39ads")??0
@@ -2846,7 +4050,7 @@ class TechnicalTest {
     () {
       int price = 0;
       String value = "5000";
-
+      price = int.parse(value);
       // Uncomment kode dibawah, dan perbaiki agar tidak error
       /*
     value = price;
@@ -2865,7 +4069,10 @@ class TechnicalTest {
     */
 
       String text = "hello 'Deny', apa kabar?";
-      String? name;
+      int startIndex = text.indexOf("'") + 1;
+      int endIndex = text.lastIndexOf("'");
+      String? name = text.substring(startIndex, endIndex);
+
       //Berdasarkan referensi di atas,
       //Ambil text diantara ' dan ' pada variable text
       return name == "Deny";
@@ -2874,8 +4081,11 @@ class TechnicalTest {
     // Exercise 229
     () {
       List numbers = [70, 23, 44, 33, 100, 23, 109];
-      double average = 0;
       double total = 0;
+      for (int number in numbers) {
+        total += number;
+      }
+      double average = total / numbers.length;
       /*
           Hitunglah nilai rata2 dari List di atas.
           [TIPS] Gunakan for untuk mendapatkan total.
@@ -2892,8 +4102,9 @@ class TechnicalTest {
           [Tips] - Gunakan .sort, ambil minValue dari .first dan ambil maxValue
           dari .last
           */
-      int minValue = 0;
-      int maxValue = 0;
+      numbers.sort();
+      int minValue = numbers.first;
+      int maxValue = numbers.last;
 
       return minValue == 23 && maxValue == 109;
     },
@@ -2902,17 +4113,14 @@ class TechnicalTest {
     () {
       int input = 10;
       // Tuliskan kode untuk menambahkan 5 pada input
-      int? output;
-
+      int? output = input + 5;
       return output == 15;
     },
-
     // Exercise 232
     () {
       int input = 10;
       // Tuliskan kode untuk mengurangi 5 pada input
-      int? output;
-
+      int? output = input - 5;
       return output == 5;
     },
 
@@ -2921,8 +4129,7 @@ class TechnicalTest {
       int input1 = 10;
       int input2 = 20;
       // Tuliskan kode untuk menjumlahkan input1 dan input2
-      int? output;
-
+      int? output = input1 + input2;
       return output == 30;
     },
 
@@ -2931,8 +4138,7 @@ class TechnicalTest {
       int input1 = 10;
       int input2 = 20;
       // Tuliskan kode untuk mengurangi input2 dengan input1
-      int? output;
-
+      int? output = input2 - input1;
       return output == 10;
     },
 
@@ -2941,8 +4147,7 @@ class TechnicalTest {
       int input1 = 10;
       int input2 = 20;
       // Tuliskan kode untuk membagi input2 dengan input1
-      double? output;
-
+      double? output = input2 / input1;
       return output == 2.0;
     },
 
@@ -2951,8 +4156,7 @@ class TechnicalTest {
       int input1 = 10;
       int input2 = 20;
       // Tuliskan kode untuk mengalikan input1 dan input2
-      int? output;
-
+      int? output = input1 * input2;
       return output == 200;
     },
 
@@ -2961,8 +4165,7 @@ class TechnicalTest {
       int input1 = 10;
       int input2 = 20;
       // Tuliskan kode untuk menghitung sisa bagi input2 dengan input1
-      int? output;
-
+      int? output = input2 % input1;
       return output == 0;
     },
 
@@ -2970,8 +4173,7 @@ class TechnicalTest {
     () {
       String input = "Hello";
       // Tuliskan kode untuk menambahkan " World!" pada input
-      String? output = "";
-
+      String? output = input + " World!";
       return output == "Hello World!";
     },
 
@@ -2979,8 +4181,7 @@ class TechnicalTest {
     () {
       String input = "Hello World!";
       // Tuliskan kode untuk mengambil kata pertama dari input
-      String? output = "";
-
+      String? output = input.split(' ')[0];
       return output == "Hello";
     },
 
@@ -2988,8 +4189,7 @@ class TechnicalTest {
     () {
       String input = "Hello World!";
       // Tuliskan kode untuk mengambil kata kedua dari input
-      String? output = "";
-
+      String? output = input.split(' ')[1];
       return output == "World!";
     },
 
@@ -2997,8 +4197,7 @@ class TechnicalTest {
     () {
       int input = 12345;
       // Tuliskan kode untuk memverifikasi apakah input adalah bilangan genap
-      bool? output;
-
+      bool? output = input % 2 == 0;
       return output == false;
     },
 
@@ -3006,8 +4205,7 @@ class TechnicalTest {
     () {
       int input = 12345;
       // Tuliskan kode untuk memverifikasi apakah input adalah bilangan ganjil
-      bool? output;
-
+      bool? output = input % 2 != 0;
       return output == true;
     },
 
@@ -3015,8 +4213,7 @@ class TechnicalTest {
     () {
       String input = "Dart";
       // Tuliskan kode untuk memverifikasi apakah input memiliki panjang lebih dari 3 karakter
-      bool? output;
-
+      bool? output = input.length > 3;
       return output == true;
     },
 
@@ -3024,8 +4221,7 @@ class TechnicalTest {
     () {
       String input = "Dart";
       // Tuliskan kode untuk memverifikasi apakah input memiliki panjang sama dengan 3 karakter
-      bool? output;
-
+      bool? output = input.length == 3;
       return output == false;
     },
 
@@ -3033,8 +4229,8 @@ class TechnicalTest {
     () {
       String input = "Dart";
       // Tuliskan kode untuk memverifikasi apakah input memiliki huruf pertama 'D'
-      bool? output;
-
+      bool? output = input.startsWith('D');
+      ;
       return output == true;
     },
 
@@ -3042,8 +4238,7 @@ class TechnicalTest {
     () {
       String input = "Dart";
       // Tuliskan kode untuk memverifikasi apakah input memiliki huruf terakhir 't'
-      bool? output;
-
+      bool? output = input.endsWith('t');
       return output == true;
     },
 
@@ -3051,8 +4246,7 @@ class TechnicalTest {
     () {
       int input = 12345;
       // Tuliskan kode untuk memverifikasi apakah input memiliki 5 digit
-      bool? output;
-
+      bool? output = input.toString().length == 5;
       return output == true;
     },
 
@@ -3060,8 +4254,7 @@ class TechnicalTest {
     () {
       int input = 12345;
       // Tuliskan kode untuk memverifikasi apakah input memiliki 4 digit
-      bool? output;
-
+      bool? output = input.toString().length == 4;
       return output == false;
     },
 
@@ -3069,17 +4262,14 @@ class TechnicalTest {
     () {
       double input = 123.45;
       // Tuliskan kode untuk memverifikasi apakah input memiliki 2 digit setelah koma
-      bool? output;
-
+      bool? output = input.toString().split('.')[1].length == 2;
       return output == true;
     },
-
     // Exercise 250
     () {
       double input = 123.45;
       // Tuliskan kode untuk memverifikasi apakah input memiliki 3 digit setelah koma
-      bool? output;
-
+      bool? output = input.toString().split('.')[1].length == 3;
       return output == false;
     },
 
@@ -3087,17 +4277,15 @@ class TechnicalTest {
     () {
       String input = "Hello World";
       // Tuliskan kode untuk memverifikasi apakah input adalah palindrome
-      bool? output;
-
+      bool? output = input.toLowerCase() ==
+          input.toLowerCase().split('').reversed.join('');
       return output == false;
     },
-
     // Exercise 252
     () {
       String input = "Dart is Awesome";
-      // Tuliskan kode untuk mengubah input menjadi huruf kecil semua dan memisahkan kata dengan spasi menjadi underscore
-      String? output = "";
-
+      // Tuliskan kode untuk mengubah input menjadi huruf kecil semua dan memisahkan kata dengan sp
+      String? output = input.toLowerCase().replaceAll(' ', '_');
       return output == "dart_is_awesome";
     },
 
@@ -3105,18 +4293,15 @@ class TechnicalTest {
     () {
       String input = "1234";
       // Tuliskan kode untuk memverifikasi apakah input adalah angka
-      bool? output;
-
+      bool? output = RegExp(r'^[0-9]+$').hasMatch(input);
       return output == true;
     },
-
     // Exercise 254
     () {
       String input =
           "Dart is a client-optimized programming language for fast apps on multiple platforms.";
       // Tuliskan kode untuk membatasi jumlah karakter pada input menjadi 50 karakter
-      String? output = "";
-
+      String? output = input.length > 50 ? input.substring(0, 50) : input;
       return output.length == 50;
     },
 
@@ -3125,15 +4310,14 @@ class TechnicalTest {
       String input =
           "Dart is a client-optimized programming language for fast apps on multiple platforms.";
       // Tuliskan kode untuk memverifikasi apakah kata "Dart" muncul pada input
-      bool? output = false;
+      bool? output = input.contains("Dart");
       return output == true;
     },
-
     // Exercise 256
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengecek apakah semua angka pada List numbers adalah angka genap.
-      bool? output = true;
+      // Implementasikan kode untuk mengecek apakah semua angka pada List numbers adalah angka gena
+      bool? output = numbers.every((number) => number % 2 == 0);
       return output == false;
     },
 
@@ -3141,15 +4325,14 @@ class TechnicalTest {
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk mengecek apakah ada angka 3 pada List numbers.
-      bool? output = false;
+      bool? output = numbers.contains(3);
       return output;
     },
-
     // Exercise 258
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk menggabungkan semua angka pada List numbers menjadi satu string tanpa spasi, misalnya "12345".
-      String? output = "";
+      // Implementasikan kode untuk menggabungkan semua angka pada List numbers menjadi satu string
+      String? output = numbers.join();
       return output == "12345";
     },
 
@@ -3159,7 +4342,7 @@ class TechnicalTest {
       // Implementasikan kode untuk menggabungkan semua angka pada
       // List numbers menjadi satu string dengan spasi di antara angka,
       // misalnya "1 2 3 4 5".
-      String? output = "";
+      String? output = numbers.join(' ');
       return output == "1 2 3 4 5";
     },
 
@@ -3171,7 +4354,7 @@ class TechnicalTest {
         "city": "New York",
       };
       // Implementasikan kode untuk mendapatkan daftar keys pada Map person.
-      List<String> output = [];
+      List<String> output = person.keys.toList();
       return output.contains("name") &&
           output.contains("age") &&
           output.contains("city");
@@ -3185,17 +4368,16 @@ class TechnicalTest {
         "city": "New York",
       };
       // Implementasikan kode untuk mendapatkan daftar values pada Map person.
-      List<dynamic> output = [];
+      List<dynamic> output = person.values.toList();
       return output.contains("John") &&
           output.contains(30) &&
           output.contains("New York");
     },
-
     // Exercise 262
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menghitung jumlah angka pada List numbers.
-      int? output = -1;
+      int? output = numbers.length;
       return output == 5;
     },
 
@@ -3203,31 +4385,30 @@ class TechnicalTest {
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menghitung jumlah total dari semua angka pada List numbers.
-      int? output = -1;
+      int? output = numbers.reduce((a, b) => a + b);
       return output == 15;
     },
-
     // Exercise 264
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk menghitung jumlah total dari semua angka pada List numbers, tapi kali ini tambahkan nilai awal 10.
-      int? output = -1;
+      int? total;
+      // Implementasikan kode untuk menghitung jumlah total dari semua angka pada List numbers, tap
+      int? output = numbers.fold(10, (total, num) => total! + num);
       return output == 25;
     },
 
     // Exercise 265
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengambil setiap angka pada List numbers dan kalikan dengan 2, hasilnya disimpan dalam List baru.
-      List<int> output = [];
+      // Implementasikan kode untuk mengambil setiap angka pada List numbers dan kalikan dengan 2,
+      List<int> output = numbers.map((num) => num * 2).toList();
       return output.contains(2) && output.contains(10) && output.length == 5;
     },
-
     // Exercise 266
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengambil setiap angka ganjil pada List numbers, hasilnya disimpan dalam List baru.
-      List<int> output = [];
+      // Implementasikan kode untuk mengambil setiap angka ganjil pada List numbers, hasilnya disim
+      List<int> output = numbers.where((num) => num % 2 != 0).toList();
       return output.contains(1) &&
           output.contains(3) &&
           output.contains(5) &&
@@ -3237,22 +4418,22 @@ class TechnicalTest {
     // Exercise 267
     () {
       List<String> fruits = ["banana", "cherry", "apple"];
+      fruits.sort();
       // Implementasikan kode untuk mengurutkan List fruits secara ascending.
       return fruits[0] == "apple" && fruits[2] == "cherry";
     },
-
     // Exercise 268
     () {
       List<String> fruits = ["apple", "banana", "cherry"];
+      fruits.sort((a, b) => b.compareTo(a));
       // Implementasikan kode untuk mengurutkan List fruits secara descending.
       return fruits[0] == "cherry" && fruits[2] == "apple";
     },
-
     // Exercise 269
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk memeriksa apakah semua angka pada List numbers adalah angka positif (lebih besar dari 0).
-      bool? output = false;
+      // Implementasikan kode untuk memeriksa apakah semua angka pada List numbers adalah angka pos
+      bool? output = numbers.every((num) => num > 0);
       return output;
     },
 
@@ -3260,7 +4441,7 @@ class TechnicalTest {
     () {
       List<int> numbers = [-1, -2, 3, 4, 5];
       // Implementasikan kode untuk memeriksa apakah ada angka negatif pada List numbers.
-      bool? output = false;
+      bool? output = numbers.any((num) => num < 0);
       return output;
     },
 
@@ -3268,15 +4449,14 @@ class TechnicalTest {
     () {
       List<String> fruits = ["apple", "banana", "cherry"];
       // Implementasikan kode untuk memeriksa apakah ada buah dengan nama "apple" pada List fruits.
-      bool? output = false;
+      bool? output = fruits.contains("apple");
       return output;
     },
-
     // Exercise 272
     () {
       List<String> fruits = ["apple", "banana", "cherry"];
-      // Implementasikan kode untuk menggabungkan semua elemen pada List fruits menjadi satu string dengan spasi di antara buah-buahnya, misalnya "apple banana cherry".
-      String? output = "";
+      // Implementasikan kode untuk menggabungkan semua elemen pada List fruits menjadi satu string
+      String? output = fruits.join(" ");
       return output == "apple banana cherry";
     },
 
@@ -3284,47 +4464,45 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengubah semua karakter pada variable text menjadi huruf kecil.
-      String? output = "";
+      String? output = text.toLowerCase();
       return output == "dart is awesome";
     },
-
     // Exercise 274
     () {
       String text = "dart is awesome";
       // Implementasikan kode untuk mengubah semua karakter pada variable text menjadi huruf besar.
-      String? output = "";
+      String? output = text.toUpperCase();
       return output == "DART IS AWESOME";
     },
 
     // Exercise 275
     () {
       String text = "Dart is awesome";
-      // Implementasikan kode untuk mengubah karakter pertama pada variable text menjadi huruf besar.
-      String? output = "";
+      // Implementasikan kode untuk mengubah karakter pertama pada variable text menjadi huruf besa
+      String? output = text[0].toUpperCase() + text.substring(1);
       return output == "Dart is awesome";
     },
-
     // Exercise 276
     () {
       String text = "Dart is awesome";
-      // Implementasikan kode untuk mengubah karakter terakhir pada variable text menjadi huruf besar.
-      String? output = "";
+      // Implementasikan kode untuk mengubah karakter terakhir pada variable text menjadi huruf bes
+      String? output = text.substring(0, text.length - 1) +
+          text[text.length - 1].toUpperCase();
       return output == "Dart is awesomE";
     },
 
     // Exercise 277
     () {
       String text = "Dart is awesome";
-      // Implementasikan kode untuk mengganti kata "awesome" pada variable text dengan kata "fantastic".
-      String? output = "";
+      // Implementasikan kode untuk mengganti kata "awesome" pada variable text dengan kata "fantas
+      String? output = text.replaceAll("awesome", "fantastic");
       return output == "Dart is fantastic";
     },
-
     // Exercise 278
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengambil 10 karakter pertama dari variable text.
-      String? output = "";
+      String? output = text.substring(0, 10);
       return output == "Dart is aw";
     },
 
@@ -3332,47 +4510,45 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengambil 11 karakter terakhir dari variable text.
-      String? output = "";
+      String? output = text.substring(text.length - 11);
       return output == " is awesome";
     },
-
     // Exercise 280
     () {
       String text = "  Dart is awesome  ";
       // Implementasikan kode untuk menghapus spasi di awal dan akhir dari variable text.
-      String? output = "";
+      String? output = text.trim();
       return output == "Dart is awesome";
     },
 
     // Exercise 281
     () {
       List<String> names = ["John", "Jane", "Jim", "Jack", "Jill"];
-      // Implementasikan kode untuk menggabungkan semua nama pada List names menjadi satu string dengan koma di antara nama-nama tersebut, misalnya "John, Jane, Jim, Jack, Jill".
-      String? output = "";
+      // Implementasikan kode untuk menggabungkan semua nama pada List names menjadi satu string de
+      String? output = names.join(", ");
+      ;
       return output == "John, Jane, Jim, Jack, Jill";
     },
-
     // Exercise 282
     () {
       String text = "Dart";
-      // Implementasikan kode untuk membalikkan urutan karakter pada variable text, sehingga menjadi "traD".
-      String? output = "";
+      // Implementasikan kode untuk membalikkan urutan karakter pada variable text, sehingga menjad
+      String? output = text.split('').reversed.join();
       return output == "traD";
     },
 
     // Exercise 283
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk memeriksa apakah semua angka pada List numbers adalah angka positif (lebih besar dari 0).
-      bool? output = false;
+      // Implementasikan kode untuk memeriksa apakah semua angka pada List numbers adalah angka pos
+      bool? output = numbers.every((number) => number > 0);
       return output;
     },
-
     // Exercise 284
     () {
       List<int> numbers = [33, 22, 13, 14, 15];
       // Implementasikan kode untuk menghitung jumlah angka pada List numbers.
-      int? output = -1;
+      int? output = numbers.length;
       return output == 5;
     },
 
@@ -3380,28 +4556,28 @@ class TechnicalTest {
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk mengambil nilai maksimum dari List numbers.
-      int? output = -1;
+      int? output = numbers.reduce((a, b) => a > b ? a : b);
       return output == 5;
     },
-
     // Exercise 286
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk mengambil nilai minimum dari List numbers.
-      int? output = -1;
+      int? output = numbers.reduce((a, b) => a < b ? a : b);
       return output == 1;
     },
 
     // Exercise 287
     () {
       List<int> numbers = [5, 3, 2, 4, 1];
+      numbers.sort();
       // Implementasikan kode untuk mengurutkan List numbers secara ascending.
       return numbers[0] == 1 && numbers[4] == 5;
     },
-
     // Exercise 288
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
+      numbers.sort((a, b) => b.compareTo(a));
       // Implementasikan kode untuk mengurutkan List numbers secara descending.
       return numbers[0] == 5 && numbers[4] == 1;
     },
@@ -3410,15 +4586,15 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah kata "is" muncul pada variable text.
-      bool? output = false;
+      bool? output = text.contains("is");
+      ;
       return output;
     },
-
     // Exercise 290
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text diakhiri dengan kata "awesome".
-      bool? output = false;
+      bool? output = text.endsWith("awesome");
       return output;
     },
 
@@ -3426,15 +4602,14 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text diawali dengan kata "Dart".
-      bool? output = false;
+      bool? output = text.startsWith("Dart");
       return output;
     },
-
     // Exercise 292
     () {
       String text = "Dart,is,awesome";
-      // Implementasikan kode untuk memisahkan kalimat pada variable text berdasarkan tanda koma (","), hasilnya disimpan dalam List baru.
-      List<String>? output = [];
+      // Implementasikan kode untuk memisahkan kalimat pada variable text berdasarkan tanda koma ("
+      List<String>? output = text.split(",");
       return output.toString() == '[Dart, is, awesome]';
     },
 
@@ -3442,15 +4617,14 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengambil substring dari index 5 hingga 10 dari variable text.
-      String? output = "";
+      String? output = text.substring(5, 11);
       return output == "is awe";
     },
-
     // Exercise 294
     () {
       String text = "Dart is awesome";
-      // Implementasikan kode untuk mengambil substring dari index 5 hingga akhir dari variable text.
-      String? output = "";
+      // Implementasikan kode untuk mengambil substring dari index 5 hingga akhir dari variable tex
+      String? output = text.substring(5);
       return output == "is awesome";
     },
 
@@ -3458,31 +4632,29 @@ class TechnicalTest {
     () {
       String text = "   Dart is awesome   ";
       // Implementasikan kode untuk menghapus spasi di awal dan akhir dari variable text.
-      String? output = "";
+      String? output = text.trim();
       return output == "Dart is awesome";
     },
-
     // Exercise 296
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengganti kata "is" pada variable text dengan kata "will be".
-      String? output = "";
+      String? output = text.replaceFirst("is", "will be");
       return output == "Dart will be awesome";
     },
 
     // Exercise 297
     () {
       String text = "Dart is awesome";
-      // Implementasikan kode untuk mengubah karakter pertama pada variable text menjadi huruf besar.
-      String? output = "";
+      // Implementasikan kode untuk mengubah karakter pertama pada variable text menjadi huruf besa
+      String? output = text[0].toUpperCase() + text.substring(1);
       return output == "Dart is awesome";
     },
-
     // Exercise 298
     () {
       String text = "dart is awesome";
-      // Implementasikan kode untuk mengubah karakter pertama pada variable text menjadi huruf besar.
-      String? output = "";
+      // Implementasikan kode untuk mengubah karakter pertama pada variable text menjadi huruf besa
+      String? output = text[0].toUpperCase() + text.substring(1);
       return output == "Dart is awesome";
     },
 
@@ -3490,15 +4662,22 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menghapus 3 karakter terakhir dari variable text.
-      String? output = "";
+      String? output = text.substring(0, 11);
       return output == "Dart is awe";
+    },
+    // Exercise 300
+    () {
+      String text = "Dart is awesome";
+      // Implementasikan kode untuk menambahkan karakter "!" pada akhir variable text.
+      String? output = text + "!";
+      return output == "Dart is awesome!";
     },
 
     // Exercise 300
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menambahkan karakter "!" pada akhir variable text.
-      String? output = "";
+      String output = text + "!";
       return output == "Dart is awesome!";
     },
 
@@ -3506,7 +4685,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengubah variable text menjadi huruf kecil semua.
-      String? output = "";
+      String? output = text.toLowerCase();
       return output == "dart is awesome";
     },
 
@@ -3514,7 +4693,7 @@ class TechnicalTest {
     () {
       String text = "dart is awesome";
       // Implementasikan kode untuk mengubah variable text menjadi huruf besar semua.
-      String? output = "";
+      String? output = text.toUpperCase();
       return output == "DART IS AWESOME";
     },
 
@@ -3522,7 +4701,7 @@ class TechnicalTest {
     () {
       String text = "dart is awesome";
       // Implementasikan kode untuk mengubah karakter pertama pada variable text menjadi huruf besar.
-      String? output = "";
+      String? output = text[0].toUpperCase() + text.substring(1);
       return output == "Dart is awesome";
     },
 
@@ -3530,7 +4709,8 @@ class TechnicalTest {
     () {
       String text = "dart is awesome";
       // Implementasikan kode untuk mengubah karakter terakhir pada variable text menjadi huruf besar.
-      String? output = "";
+      String? output = text.substring(0, text.length - 1) +
+          text[text.length - 1].toUpperCase();
       return output == "dart is awesomE";
     },
 
@@ -3538,7 +4718,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengganti kata "awesome" pada variable text dengan kata "fantastic".
-      String? output = "";
+      String? output = text.replaceAll("awesome", "fantastic");
       return output == "Dart is fantastic";
     },
 
@@ -3546,7 +4726,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengambil 10 karakter pertama dari variable text.
-      String? output = "";
+      String? output = text.substring(0, 10);
       return output == "Dart is aw";
     },
 
@@ -3554,7 +4734,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengambil 8 karakter terakhir dari variable text.
-      String? output = "";
+      String? output = text.substring(text.length - 11);
       return output == " is awesome";
     },
 
@@ -3562,7 +4742,7 @@ class TechnicalTest {
     () {
       String text = "  Dart is awesome  ";
       // Implementasikan kode untuk menghapus spasi di awal dan akhir dari variable text.
-      String? output = "";
+      String? output = text.trim();
       return output == "Dart is awesome";
     },
 
@@ -3570,7 +4750,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah kata "Dart" muncul pada variable text.
-      bool? output = false;
+      bool? output = text.contains("Dart");
       return output;
     },
 
@@ -3578,7 +4758,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text mengandung huruf "a".
-      bool? output = false;
+      bool? output = text.contains("a");
       return output;
     },
 
@@ -3586,7 +4766,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text mengandung huruf "x".
-      bool? output = null;
+      bool? output = text.contains("x");
       return output == false;
     },
 
@@ -3594,7 +4774,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menghitung jumlah huruf "a" pada variable text.
-      int? output = -1;
+      int? output = text.split("a").length - 1;
       return output == 2;
     },
 
@@ -3602,7 +4782,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menghitung jumlah huruf "x" pada variable text.
-      int? output = -1;
+      int? output = text.split("x").length - 1;
       return output == 0;
     },
 
@@ -3610,7 +4790,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menghitung jumlah huruf "a" atau "A" pada variable text.
-      int? output = -1;
+      int? output = text.split(RegExp("[aA]")).length - 1;
       return output == 2;
     },
 
@@ -3618,7 +4798,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text mengandung kata "is".
-      bool? output = false;
+      bool? output = text.contains("is");
       return output;
     },
 
@@ -3626,7 +4806,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text diawali dengan kata "Dart" dan mengandung kata "awesome".
-      bool? output = false;
+      bool? output = text.startsWith("Dart") && text.contains("awesome");
       return output;
     },
 
@@ -3634,7 +4814,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text diakhiri dengan huruf "e".
-      bool? output = false;
+      bool? output = text.endsWith("e");
       return output;
     },
 
@@ -3642,7 +4822,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk memeriksa apakah variable text mengandung huruf "x" dan "a".
-      bool? output = null;
+      bool? output = text.contains("x") && text.contains("a");
       return output == false;
     },
 
@@ -3650,7 +4830,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menggabungkan variable text dengan string " and Flutter", hasilnya disimpan dalam variable baru.
-      String? output = "";
+      String? output = text + " and Flutter";
       return output == "Dart is awesome and Flutter";
     },
 
@@ -3658,7 +4838,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menggabungkan variable text dengan string " and Flutter" dengan menggunakan operator +=, hasilnya disimpan dalam variable baru.
-      String? output = "";
+      String? output = text;
       output += " and Flutter";
       return output == "Dart is awesome and Flutter";
     },
@@ -3667,7 +4847,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk menggabungkan variable text dengan string " and Flutter" dengan menggunakan method concat, hasilnya disimpan dalam variable baru.
-      String? output = "";
+      String output = text + " and Flutter";
       return output == "Dart is awesome and Flutter";
     },
 
@@ -3675,7 +4855,7 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengubah variable text menjadi list kata-kata, hasilnya disimpan dalam variable baru.
-      List<String>? output = [];
+      List<String> output = text.split(" ");
       return output.toString() == '[Dart, is, awesome]';
     },
 
@@ -3684,7 +4864,7 @@ class TechnicalTest {
       String text = "Awesome";
       // Implementasikan kode untuk mengubah variable text menjadi list karakter,
       // hasilnya disimpan dalam variable output.
-      List<String>? output = [];
+      List<String> output = text.split("");
       return output.join("") == "Awesome";
     },
 
@@ -3692,7 +4872,8 @@ class TechnicalTest {
     () {
       String text = "Dart is awesome";
       // Implementasikan kode untuk mengubah list kata-kata pada variable text menjadi kalimat utuh, hasilnya disimpan dalam variable baru.
-      String? output = "";
+      List<String> words = text.split(" ");
+      String output = words.join(" ");
       return output == "Dart is awesome";
     },
 
@@ -3700,6 +4881,7 @@ class TechnicalTest {
     () {
       List<String> fruits = ["apple", "banana", "cherry"];
       // Implementasikan kode untuk menambahkan kata "orange" pada List fruits.
+      fruits.add("orange");
       return fruits.contains("orange");
     },
 
@@ -3708,7 +4890,7 @@ class TechnicalTest {
       List<String> fruits = ["apple", "banana", "cherry"];
       // Implementasikan kode untuk menggabungkan dua List menjadi satu, hasilnya disimpan dalam variable baru.
       List<String>? otherFruits = ["orange", "grape"];
-      List<String>? output = [];
+      List<String> output = fruits + otherFruits;
       return output.toString() == '[apple, banana, cherry, orange, grape]';
     },
 
@@ -3717,6 +4899,7 @@ class TechnicalTest {
       List<String> fruits = ["apple", "banana", "cherry"];
       // Implementasikan kode untuk menggabungkan dua List menjadi satu, hasilnya disimpan dalam List fruits.
       List<String>? otherFruits = ["orange", "grape"];
+      fruits.addAll(otherFruits);
       return fruits.toString() == '[apple, banana, cherry, orange, grape]';
     },
 
@@ -3724,7 +4907,7 @@ class TechnicalTest {
     () {
       List<String> fruits = ["apple", "banana", "cherry", "orange", "grape"];
       // Implementasikan kode untuk mengambil dua elemen pertama dari List fruits.
-      List<String>? output = [];
+      List<String> output = fruits.sublist(0, 2);
       return output.toString() == '[apple, banana]';
     },
 
@@ -3732,6 +4915,7 @@ class TechnicalTest {
     () {
       List<String> fruits = ["apple", "banana", "cherry", "orange", "grape"];
       // Implementasikan kode untuk menghapus dua elemen pertama dari List fruits.
+      fruits.removeRange(0, 2);
       return fruits.toString() == '[cherry, orange, grape]';
     },
 
@@ -3739,6 +4923,7 @@ class TechnicalTest {
     () {
       List<String> fruits = ["apple", "banana", "cherry", "orange", "grape"];
       // Implementasikan kode untuk menghapus elemen dengan nilai "cherry" dari List fruits.
+      fruits.remove("cherry");
       return !fruits.contains("cherry");
     },
 
@@ -3746,165 +4931,159 @@ class TechnicalTest {
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menghitung jumlah semua angka pada List numbers.
-      int? output = -1;
+      int output = numbers.reduce((a, b) => a + b);
       return output == 15;
     },
 
-    // Exercise 332
+// Exercise 332
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menghitung hasil perkalian semua angka pada List numbers.
-      int? output = -1;
+      int output = numbers.reduce((a, b) => a * b);
       return output == 120;
     },
 
-    // Exercise 333
+// Exercise 333
     () {
-      List<int> numbers = [1, 2, 3, 4, 5];
+      List<double> numbers = [1.0, 2, 3, 4, 5];
       // Implementasikan kode untuk menghitung hasil pembagian semua angka pada List numbers (dalam bentuk double).
-      double? output = 0;
+      double output = numbers.reduce((a, b) => a / b);
       return output.toStringAsFixed(2) == "3.00";
     },
 
-    // Exercise 334
+// Exercise 334
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk memeriksa apakah semua angka pada List numbers adalah angka positif (lebih besar dari 0).
-      bool? output = false;
+      bool output = numbers.every((num) => num > 0);
       return output;
     },
 
-    // Exercise 335
+// Exercise 335
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk memeriksa apakah setidaknya ada satu angka pada List numbers yang merupakan angka genap.
-      bool? output = false;
+      bool output = numbers.any((num) => num % 2 == 0);
       return output;
     },
 
-    // Exercise 336
+// Exercise 336
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menemukan angka pertama pada List numbers yang merupakan angka genap.
-      int? output = -1;
+      int output = numbers.firstWhere((num) => num % 2 == 0, orElse: () => -1);
       return output == 2;
     },
 
-    // Exercise 337
+// Exercise 337
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menemukan angka pertama pada List numbers yang merupakan angka ganjil.
-      int? output = -1;
+      int output = numbers.firstWhere((num) => num % 2 != 0, orElse: () => -1);
       return output == 1;
     },
 
-    // Exercise 338
+// Exercise 338
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menemukan indeks angka pertama pada List numbers yang merupakan angka genap.
-      int? output = -1;
+      int output = numbers.indexWhere((num) => num % 2 == 0);
       return output == 1;
     },
 
-    // Exercise 339
+// Exercise 339
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menemukan indeks angka pertama pada List numbers yang merupakan angka ganjil.
-      int? output = -1;
+      int output = numbers.indexWhere((num) => num % 2 != 0);
       return output == 0;
     },
 
-    // Exercise 340
+// Exercise 340
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
       // Implementasikan kode untuk menghapus angka pertama pada List numbers yang merupakan angka genap.
+      numbers.removeWhere((num) => num % 2 == 0);
       return !numbers.contains(2);
     },
 
     // Exercise 341
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk menghapus semua angka pada List numbers yang merupakan angka ganjil.
+      numbers.removeWhere((number) => number.isOdd);
       return !numbers.contains(1) &&
           !numbers.contains(3) &&
           !numbers.contains(5);
     },
 
-    // Exercise 342
+// Exercise 342
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengubah semua angka pada List numbers menjadi dua kali lipatnya.
+      numbers = numbers.map((number) => number * 2).toList();
       return numbers.toString() == '[2, 4, 6, 8, 10]';
     },
 
-    // Exercise 343
+// Exercise 343
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengambil dua elemen terakhir dari List numbers.
-      List<int>? output = [];
+      List<int> output = numbers.sublist(numbers.length - 2);
       return output.toString() == '[4, 5]';
     },
 
-    // Exercise 344
+// Exercise 344
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengambil tiga elemen pertama dari List numbers.
-      List<int>? output = [];
+      List<int> output = numbers.sublist(0, 3);
       return output.toString() == '[1, 2, 3]';
     },
 
-    // Exercise 345
+// Exercise 345
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengambil tiga elemen terakhir dari List numbers.
-      var output = [];
+      List<int> output = numbers.sublist(numbers.length - 3);
       return output.toString() == '[3, 4, 5]';
     },
 
-    // Exercise 346
+// Exercise 346
     () {
       List<int> numbers = [5, 3, 2, 1, 4];
-      // Implementasikan kode untuk mengurutkan List numbers secara ascending.
+      numbers.sort();
       return numbers.toString() == '[1, 2, 3, 4, 5]';
     },
 
-    // Exercise 347
+// Exercise 347
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk mengurutkan List numbers secara descending.
+      numbers.sort((a, b) => b.compareTo(a));
       return numbers.toString() == '[5, 4, 3, 2, 1]';
     },
 
-    // Exercise 348
+// Exercise 348
     () {
       List<int> numbers = [1, 2, 3, 4, 5];
-      // Implementasikan kode untuk menggabungkan List numbers dengan List numbers lainnya, kemudian mengurutkannya secara ascending.
-      List<int>? otherNumbers = [6, 7, 8];
-      List<int>? output = [];
+      List<int> otherNumbers = [6, 7, 8];
+      List<int> output = [...numbers, ...otherNumbers];
+      output.sort();
       return output.toString() == '[1, 2, 3, 4, 5, 6, 7, 8]';
     },
 
-    // Exercise 349
+// Exercise 349
     () {
       List numbers = [10, 20, 30, 40];
       List output = [];
-      // ? Instruksi:Gunakan looping for untuk menambahkan semua item dari numbers ke output
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (var number in numbers) {
+        output.add(number);
+      }
       return output.toString() == "[10, 20, 30, 40]";
     },
 
-    // Exercise 350
+// Exercise 350
     () {
       List<String> fruits = ["apple", "banana", "orange"];
       List<String> output = [];
-
-      // ? Instruksi: Gunakan looping for untuk menambahkan semua item dari fruits ke output
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
+      for (var fruit in fruits) {
+        output.add(fruit);
+      }
       return output.toString() == "[apple, banana, orange]";
     },
 
@@ -3915,7 +5094,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menambahkan semua item dari numbers ke output
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        output.add(numbers[i]);
+      }
       // --- End of Answer ---
 
       return output.toString() == "[5, 10, 15, 20]";
@@ -3928,7 +5109,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari apakah terdapat 'kiwi' dalam list fruits
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < fruits.length; i++) {
+        if (fruits[i] == 'kiwi') {
+          output = true;
+          break;
+        }
+      }
       // --- End of Answer ---
 
       return output == true;
@@ -3941,7 +5127,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list multiplesOfN dengan kelipatan n dari 1 hingga 5
       // >>> Tulis kode for loop di sini
-
+      for (int i = 1; i <= 5; i++) {
+        multiplesOfN.add(n * i);
+      }
       // --- End of Answer ---
 
       return multiplesOfN.toString() == "[5, 10, 15, 20, 25]";
@@ -3954,7 +5142,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari colors menjadi satu string result
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < colors.length; i++) {
+        result += colors[i];
+      }
       // --- End of Answer ---
 
       return result == "redgreenblue";
@@ -3967,7 +5157,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menjumlahkan semua item dari numbers ke dalam variabel sum
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+      }
       // --- End of Answer ---
 
       return sum == 15;
@@ -3980,7 +5172,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengalikan semua item dari numbers ke dalam variabel product
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        product *= numbers[i];
+      }
       // --- End of Answer ---
 
       return product == 120;
@@ -3993,7 +5187,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari numbers secara terbalik
       // >>> Tulis kode for loop di sini
-
+      for (int i = numbers.length - 1; i >= 0; i--) {
+        reversedNumbers.add(numbers[i]);
+      }
       // --- End of Answer ---
 
       return reversedNumbers.toString() == "[5, 4, 3, 2, 1]";
@@ -4006,7 +5202,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan item dari numbers yang merupakan bilangan ganjil
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 != 0) {
+          oddNumbers.add(numbers[i]);
+        }
+      }
       // --- End of Answer ---
 
       return oddNumbers.toString() == "[1, 3, 5]";
@@ -4020,6 +5220,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list numbers
       // >>> Tulis kode for loop di sini
+      for (int i = 0; i < numbers.length; i++) {
+        if (numbers[i] == target) {
+          exists = true;
+          break;
+        }
+      }
 
       // --- End of Answer ---
 
@@ -4029,12 +5235,18 @@ class TechnicalTest {
     // Exercise 360
     () {
       List<int> numbers = [3, 6, 9, 12, 15];
-      bool allDivisibleBy3 = false;
+      bool allDivisibleBy3 =
+          true; // Awalnya kita anggap semua angka bisa dibagi 3
 
-      // ? Instruksi: Gunakan looping for untuk mengecek apakah semua angka dalam list numbers dapat dibagi dengan 3 (hasil bagi = 0)
-      // >>> Tulis kode for loop di sini
+      // Loop melalui semua angka dalam daftar
+      for (int number in numbers) {
+        if (number % 3 != 0) {
+          // Cek apakah ada angka yang tidak habis dibagi 3
+          allDivisibleBy3 = false;
+          break; // Keluar dari loop jika menemukan angka yang tidak habis dibagi 3
+        }
+      }
 
-      // --- End of Answer ---
       return allDivisibleBy3;
     },
 
@@ -4045,8 +5257,12 @@ class TechnicalTest {
       bool found = false;
 
       // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list fruits
-      // >>> Tulis kode for loop di sini
-
+      for (String fruit in fruits) {
+        if (fruit == target) {
+          found = true; // Set found to true if the target is found
+          break; // Exit the loop early since we've found the target
+        }
+      }
       // --- End of Answer ---
 
       return found;
@@ -4058,8 +5274,9 @@ class TechnicalTest {
       String joinedFruits = "";
 
       // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list fruits menjadi satu string joinedFruits
-      // >>> Tulis kode for loop di sini
-
+      for (String fruit in fruits) {
+        joinedFruits += fruit; // Append each fruit to the joinedFruits string
+      }
       // --- End of Answer ---
 
       return joinedFruits == "applebananaorange";
@@ -4071,8 +5288,9 @@ class TechnicalTest {
       int product = 1;
 
       // ? Instruksi: Gunakan looping for untuk mengalikan semua angka dalam list numbers
-      // >>> Tulis kode for loop di sini
-
+      for (int number in numbers) {
+        product *= number;
+      }
       // --- End of Answer ---
 
       return product == 3840;
@@ -4084,7 +5302,9 @@ class TechnicalTest {
       List<int> reversedNumbers = [];
 
       // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari list numbers secara terbalik
-      // >>> Tulis kode for loop di sini
+      for (int i = numbers.length - 1; i >= 0; i--) {
+        reversedNumbers.add(numbers[i]);
+      }
 
       // --- End of Answer ---
 
@@ -4097,83 +5317,14 @@ class TechnicalTest {
       List<int> oddNumbers = [];
 
       // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan item dari list numbers yang merupakan bilangan ganjil
-      // >>> Tulis kode for loop di sini
-
+      for (int number in numbers) {
+        if (number % 2 != 0) {
+          oddNumbers.add(number);
+        }
+      }
       // --- End of Answer ---
 
       return oddNumbers.toString() == "[1, 3, 5]";
-    },
-
-    // Exercise 366
-    () {
-      List<int> sales = [100, 200, 300, 400, 500];
-      int salesTotal = 0;
-
-      // ? Instruksi: Gunakan looping for untuk menghitung total penjualan (salesTotal) dari list sales
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return salesTotal == 1500;
-    },
-
-    // Exercise 367
-    () {
-      List<int> sales = [100, 200, 300, 400, 500];
-      double salesAverage = 0;
-
-      // ? Instruksi: Gunakan looping for untuk menghitung rata-rata penjualan (salesAverage) dari list sales
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return salesAverage == 300;
-    },
-
-    // Exercise 368
-    () {
-      List<int> productPrices = [1000, 2000, 1500, 3000, 500];
-      int cheapestProduct = 0;
-
-      // ? Instruksi: Gunakan looping for untuk mencari harga produk termurah (cheapestProduct) dari list productPrices
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return cheapestProduct == 500;
-    },
-
-    // Exercise 369
-    () {
-      List<int> productPrices = [1000, 2000, 1500, 3000, 500];
-      int expensiveProduct = 0;
-
-      // ? Instruksi: Gunakan looping for untuk mencari harga produk termahal (expensiveProduct) dari list productPrices
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return expensiveProduct == 3000;
-    },
-
-    // Exercise 370
-    () {
-      List<String> products = [
-        "apple",
-        "banana",
-        "orange",
-        "banana",
-        "apple",
-        "banana"
-      ];
-      String favoriteProduct = "";
-
-      // ? Instruksi: Gunakan looping for untuk mencari produk favorit (favoriteProduct) yang paling sering muncul dalam list products
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return favoriteProduct == "banana";
     },
 
     // Exercise 371
@@ -4183,7 +5334,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list squaredNumbers dengan nilai kuadrat dari setiap angka dalam list numbers
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        squaredNumbers.add(numbers[i] * numbers[i]);
+      }
       // --- End of Answer ---
 
       return squaredNumbers.toString() == "[1, 4, 9, 16, 25]";
@@ -4196,7 +5349,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list evenNumbers dengan angka genap dari list numbers
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 == 0) {
+          evenNumbers.add(numbers[i]);
+        }
+      }
       // --- End of Answer ---
 
       return evenNumbers.toString() == "[2, 4]";
@@ -4209,7 +5366,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan angka ganjil dari list numbers
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 != 0) {
+          oddNumbers.add(numbers[i]);
+        }
+      }
       // --- End of Answer ---
 
       return oddNumbers.toString() == "[1, 3, 5]";
@@ -4222,7 +5383,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list capitalizedFruits dengan semua item dari list fruits yang telah dijadikan huruf kapital
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < fruits.length; i++) {
+        capitalizedFruits.add(fruits[i].toUpperCase());
+      }
       // --- End of Answer ---
 
       return capitalizedFruits.toString() == "[APPLE, BANANA, ORANGE]";
@@ -4235,7 +5398,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list names menjadi satu string concatenatedNames, dipisahkan oleh koma
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < names.length; i++) {
+        concatenatedNames += names[i];
+        if (i < names.length - 1) {
+          concatenatedNames += ",";
+        }
+      }
       // --- End of Answer ---
       return concatenatedNames == "Alice,Bob,Charlie,David";
     },
@@ -4247,7 +5415,8 @@ class TechnicalTest {
 
       // ? Isi list 'sortedNumbers' dengan angka-angka yang telah diurutkan secara descending.
       // >>> Tulis kode for loop di sini
-
+      sortedNumbers = List.from(numbers);
+      sortedNumbers.sort((a, b) => b.compareTo(a));
       // --- End of Answer ---
 
       return sortedNumbers.toString() == "[7, 5, 3, 2, 1]";
@@ -4260,7 +5429,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list filteredFruits dengan nama-nama buah yang memiliki huruf 'a' di dalamnya.
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < fruits.length; i++) {
+        if (fruits[i].contains('a')) {
+          filteredFruits.add(fruits[i]);
+        }
+      }
       // --- End of Answer ---
 
       return filteredFruits.toString() == "[apple, orange, banana, mango]";
@@ -4273,7 +5446,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menjumlahkan semua item dari numbers ke dalam variabel sum, tetapi berhenti jika jumlahnya mencapai 10.
       // >>> Tulis kode for loop di sini
-
+      for (int i = 0; i < numbers.length; i++) {
+        if (sum + numbers[i] >= 10) {
+          break;
+        }
+        sum += numbers[i];
+      }
       // --- End of Answer ---
 
       return sum == 9;
@@ -4286,7 +5464,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari numbers secara terbalik
       // >>> Tulis kode for loop di sini
-
+      for (int i = numbers.length - 1; i >= 0; i--) {
+        reversedNumbers.add(numbers[i]);
+      }
       // --- End of Answer ---
 
       return reversedNumbers.toString() == "[1, 3, 7, 2, 5]";
@@ -4299,6 +5479,10 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list words menjadi satu string concatenatedWords, dipisahkan oleh spasi.
       // >>> Tulis kode for loop di sini
+      for (int i = 0; i < words.length; i++) {
+        concatenatedWords += words[i];
+        concatenatedWords += " ";
+      }
 
       // --- End of Answer ---
 
@@ -4312,7 +5496,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list squaredNumbers dengan hasil kuadrat dari setiap angka dalam list numbers.
       // >>> Tulis kode for loop di sini
-
+      for (int number in numbers) {
+        squaredNumbers.add(number * number);
+      }
       // --- End of Answer ---
 
       return squaredNumbers.toString() == "[25, 4, 49, 9, 1]";
@@ -4325,7 +5511,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari nilai terkecil (minimum) dalam list numbers dan simpan dalam variabel minValue.
       // >>> Tulis kode for loop di sini
-
+      for (int i = 1; i < numbers.length; i++) {
+        if (numbers[i] < minValue) {
+          minValue = numbers[i];
+        }
+      }
       // --- End of Answer ---
 
       return minValue == 1;
@@ -4338,7 +5528,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari nilai terbesar (maximum) dalam list numbers dan simpan dalam variabel maxValue.
       // >>> Tulis kode for loop di sini
-
+      for (int i = 1; i < numbers.length; i++) {
+        if (numbers[i] > maxValue) {
+          maxValue = numbers[i];
+        }
+      }
       // --- End of Answer ---
 
       return maxValue == 7;
@@ -4351,7 +5545,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list evenNumbers dengan angka-angka genap dari list numbers.
       // >>> Tulis kode for loop di sini
-
+      for (int number in numbers) {
+        if (number % 2 == 0) {
+          evenNumbers.add(number);
+        }
+      }
       // --- End of Answer ---
 
       return evenNumbers.toString() == "[2]";
@@ -4366,7 +5564,11 @@ class TechnicalTest {
       // dengan angka-angka genap dari list numbers.
       // Kalikan angka genap itu dengan 9
       // >>> Tulis kode for loop di sini
-
+      for (int number in numbers) {
+        if (number % 2 == 0) {
+          evenNumbers.add(number * 9);
+        }
+      }
       // --- End of Answer ---
 
       return evenNumbers.toString() == "[18]";
@@ -4395,7 +5597,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang huruf depannya adalah A
       // >>> Tulis kode for loop di sini
-
+      for (Map user in users) {
+        if (user["name"].toString().startsWith("A")) {
+          filteredUsers.add(user);
+        }
+      }
       // --- End of Answer ---
 
       return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 1;
@@ -4424,7 +5630,11 @@ class TechnicalTest {
       List<Map<String, dynamic>> filteredUsers = [];
       // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang huruf depannya adalah "D"
       // >>> Tulis kode for loop di sini
-
+      for (Map<String, dynamic> user in users) {
+        if (user["name"].toString().startsWith("D")) {
+          filteredUsers.add(user);
+        }
+      }
       // --- End of Answer ---
 
       return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 2;
@@ -4453,7 +5663,11 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang usianya di atas 30 tahun
       // >>> Tulis kode for loop di sini
-
+      for (Map<String, dynamic> user in users) {
+        if (user["age"] > 30) {
+          filteredUsers.add(user);
+        }
+      }
       // --- End of Answer ---
 
       return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 2;
@@ -4482,7 +5696,9 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk mengisi list names dengan semua nama dari users
       // >>> Tulis kode for loop di sini
-
+      for (Map<String, dynamic> user in users) {
+        names.add(user["name"]);
+      }
       // --- End of Answer ---
 
       return names.isNotEmpty && names.length == 3;
@@ -4511,153 +5727,194 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk mencari user dengan id = 2 dan kembalikan nilai usianya
       // >>> Tulis kode for loop di sini
-
+      for (Map<String, dynamic> user in users) {
+        if (user["id"] == 2) {
+          age = user["age"];
+          break; // Hentikan loop setelah menemukan user dengan id = 2
+        }
+      }
       // --- End of Answer ---
 
       return age == 31;
     },
 
-    // Exercise 391
+// Exercise 391
     () {
       List<Map<String, dynamic>> users = [
-        {
-          "id": 1,
-          "name": "Alex",
-          "age": 29,
-        },
-        {
-          "id": 2,
-          "name": "David",
-          "age": 31,
-        },
-        {
-          "id": 3,
-          "name": "Siren",
-          "age": 28,
-        }
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
       ];
       bool containsId3 = false;
 
-      // Instruksi: Gunakan looping for untuk mengecek apakah users mengandung user dengan id = 3
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < users.length; i++) {
+        if (users[i]["id"] == 3) {
+          containsId3 = true;
+          break;
+        }
+      }
 
       return containsId3;
     },
 
-    // Exercise 392
+// Exercise 392
     () {
       List<Map<String, dynamic>> users = [
-        {
-          "id": 1,
-          "name": "Alex",
-          "age": 29,
-        },
-        {
-          "id": 2,
-          "name": "David",
-          "age": 31,
-        },
-        {
-          "id": 3,
-          "name": "Siren",
-          "age": 28,
-        }
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
       ];
       List<Map<String, dynamic>> updatedUsers = [];
 
-      // Instruksi: Gunakan looping for untuk mengupdate usia setiap user menjadi usia + 1 dan masukkan ke dalam list updatedUsers
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < users.length; i++) {
+        Map<String, dynamic> updatedUser = Map.from(users[i]);
+        updatedUser["age"] += 1;
+        updatedUsers.add(updatedUser);
+      }
 
       return updatedUsers.isNotEmpty && updatedUsers[0]["age"] == 30;
     },
 
-    // Exercise 393
+// Exercise 393
     () {
       List<Map<String, dynamic>> users = [
-        {
-          "id": 1,
-          "name": "Alex",
-          "age": 29,
-        },
-        {
-          "id": 2,
-          "name": "David",
-          "age": 31,
-        },
-        {
-          "id": 3,
-          "name": "Siren",
-          "age": 28,
-          "address": "Ciawi street",
-        }
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28, "address": "Ciawi street"},
       ];
       List<Map<String, dynamic>> filteredUsers = [];
 
-      // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan user yang memiliki properti "address"
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < users.length; i++) {
+        if (users[i].containsKey("address")) {
+          filteredUsers.add(users[i]);
+        }
+      }
 
       return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 3;
     },
 
-    // Exercise 394
+// Exercise 394
     () {
       List<Map<String, dynamic>> users = [
-        {
-          "id": 1,
-          "name": "Alex",
-          "age": 29,
-        },
-        {
-          "id": 2,
-          "name": "David",
-          "age": 31,
-        },
-        {
-          "id": 3,
-          "name": "Siren",
-          "age": 28,
-        }
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
       ];
       List<String> names = [];
 
-      // Instruksi: Gunakan looping for untuk mengisi list names dengan nama-nama user yang usianya kurang dari 30 tahun
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < users.length; i++) {
+        if (users[i]["age"] < 30) {
+          names.add(users[i]["name"]);
+        }
+      }
 
       return names.isNotEmpty && names.length == 2;
     },
 
-    // Exercise 395
+// Exercise 395
     () {
       List<Map<String, dynamic>> users = [
-        {
-          "id": 1,
-          "name": "Alex",
-          "age": 29,
-        },
-        {
-          "id": 2,
-          "name": "David",
-          "age": 31,
-        },
-        {
-          "id": 3,
-          "name": "Siren",
-          "age": 28,
-        }
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
       ];
 
-      // Instruksi: Gunakan looping for untuk mencari user dengan id = 3 dan hapus user tersebut dari list users
-      // >>> Tulis kode for loop di sini
+      for (int i = 0; i < users.length; i++) {
+        if (users[i]["id"] == 3) {
+          users.removeAt(i);
+          break;
+        }
+      }
 
-      // --- End of Answer ---
+      return users.length == 2 && users[1]["name"] == "David";
+    },
+// Exercise 391
+    () {
+      List<Map<String, dynamic>> users = [
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
+      ];
+      bool containsId3 = false;
+
+      for (int i = 0; i < users.length; i++) {
+        if (users[i]["id"] == 3) {
+          containsId3 = true;
+          break;
+        }
+      }
+
+      return containsId3;
+    },
+
+// Exercise 392
+    () {
+      List<Map<String, dynamic>> users = [
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
+      ];
+      List<Map<String, dynamic>> updatedUsers = [];
+
+      for (int i = 0; i < users.length; i++) {
+        Map<String, dynamic> updatedUser = Map.from(users[i]);
+        updatedUser["age"] += 1;
+        updatedUsers.add(updatedUser);
+      }
+
+      return updatedUsers.isNotEmpty && updatedUsers[0]["age"] == 30;
+    },
+
+// Exercise 393
+    () {
+      List<Map<String, dynamic>> users = [
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28, "address": "Ciawi street"},
+      ];
+      List<Map<String, dynamic>> filteredUsers = [];
+
+      for (int i = 0; i < users.length; i++) {
+        if (users[i].containsKey("address")) {
+          filteredUsers.add(users[i]);
+        }
+      }
+
+      return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 3;
+    },
+
+// Exercise 394
+    () {
+      List<Map<String, dynamic>> users = [
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
+      ];
+      List<String> names = [];
+
+      for (int i = 0; i < users.length; i++) {
+        if (users[i]["age"] < 30) {
+          names.add(users[i]["name"]);
+        }
+      }
+
+      return names.isNotEmpty && names.length == 2;
+    },
+
+// Exercise 395
+    () {
+      List<Map<String, dynamic>> users = [
+        {"id": 1, "name": "Alex", "age": 29},
+        {"id": 2, "name": "David", "age": 31},
+        {"id": 3, "name": "Siren", "age": 28},
+      ];
+
+      for (int i = 0; i < users.length; i++) {
+        if (users[i]["id"] == 3) {
+          users.removeAt(i);
+          break;
+        }
+      }
 
       return users.length == 2 && users[1]["name"] == "David";
     },
@@ -4674,7 +5931,11 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total penjualan (amount positif) dari data transaksi
       // >>> Tulis kode for loop di sini
-
+      for (var transaction in data) {
+        if (transaction["amount"] > 0) {
+          totalSales += (transaction["amount"] as int);
+        }
+      }
       // --- End of Answer ---
 
       return totalSales == 2300;
@@ -4692,7 +5953,11 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total refund (amount negatif) dari data transaksi
       // >>> Tulis kode for loop di sini
-
+      for (var transaction in data) {
+        if (transaction["amount"] < 0) {
+          totalRefunds += (-transaction["amount"] as int);
+        }
+      }
       // --- End of Answer ---
 
       return totalRefunds == 200;
@@ -4710,7 +5975,11 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total penjualan dengan isPromo true dari data transaksi
       // >>> Tulis kode for loop di sini
-
+      for (var transaction in data) {
+        if (transaction["isPromo"] == true) {
+          totalPromoSales += (transaction["amount"] as int);
+        }
+      }
       // --- End of Answer ---
 
       return totalPromoSales == 500;
@@ -4728,7 +5997,12 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total penjualan kategori "Electronics" dari data transaksi
       // >>> Tulis kode for loop di sini
-
+      for (var transaction in data) {
+        if (transaction["category"] == "Electronics" &&
+            transaction["amount"] > 0) {
+          totalElectronicsSales += (transaction["amount"] as int);
+        }
+      }
       // --- End of Answer ---
 
       return totalElectronicsSales == 1500;
@@ -4746,7 +6020,12 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total refund kategori "Fashion" dari data transaksi
       // >>> Tulis kode for loop di sini
-
+      for (var transaction in data) {
+        if (transaction["transaction"] == "Refund" &&
+            transaction["category"] == "Fashion") {
+          totalFashionRefunds += (transaction["amount"] as int);
+        }
+      }
       // --- End of Answer ---
 
       return totalFashionRefunds == 200;
@@ -4764,7 +6043,12 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total penjualan kategori "Electronics" dari data transaksi
       // >>> Tulis kode for loop di sini
-
+      for (var transaction in data) {
+        if (transaction["category"] == "Electronics" &&
+            transaction["transaction"] == "Sale") {
+          totalSalesInElectronics += (transaction["amount"] as int);
+        }
+      }
       // --- End of Answer ---
 
       return totalSalesInElectronics == 1500;
@@ -4783,6 +6067,14 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total penjualan dan refund dari data transaksi
       // >>> Tulis kode for loop di sini
+      for (var transaction in data) {
+        if (transaction["transaction"] == "Sale") {
+          totalSales += (transaction["amount"] as int);
+        } else if (transaction["transaction"] == "Refund") {
+          totalRefunds += -(transaction["amount"]
+              as int); // Ubah nilai ke positif karena amount negatif
+        }
+      }
 
       // --- End of Answer ---
 
@@ -4800,7 +6092,10 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk menghitung total gaji (hoursWorked * hourlyRate) dari data karyawan
       // >>> Tulis kode for loop di sini
-
+      for (var employee in data) {
+        totalSalary +=
+            (employee["hoursWorked"] as int) * (employee["hourlyRate"] as int);
+      }
       // --- End of Answer ---
       return totalSalary == 2150;
     },
@@ -4813,9 +6108,13 @@ class TechnicalTest {
         {"name": "Bob", "hoursWorked": 20, "hourlyRate": 30},
       ];
       int maxHourlyRate = 0;
-
       // Instruksi: Gunakan looping for untuk mencari nilai maksimum dari "hourlyRate" pada data karyawan
       // >>> Tulis kode for loop di sini
+      for (var employee in data) {
+        if (employee['hourlyRate'] > maxHourlyRate) {
+          maxHourlyRate = employee['hourlyRate'];
+        }
+      }
 
       // --- End of Answer ---
 
@@ -4833,85 +6132,13 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menghitung total harga dari semua produk di dalam list products
       // >>> Tulis kode for loop di sini
+      for (var product in products) {
+        totalHarga += product['price'];
+      }
 
       // --- End of Answer ---
 
       return totalHarga == 750000;
-    },
-
-    // Exercise 406
-    () {
-      List<Map<String, dynamic>> transactions = [
-        {"id": 1, "amount": 3, "price": 50000},
-        {"id": 2, "amount": 1, "price": 75000},
-        {"id": 3, "amount": 5, "price": 30000},
-      ];
-      double totalPendapatan = 0;
-
-      // ? Instruksi: Gunakan looping for untuk menghitung total pendapatan dari semua transaksi di dalam list transactions
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return totalPendapatan == 375000;
-    },
-
-    // Exercise 407
-    () {
-      List<Map<String, dynamic>> employees = [
-        {"id": 1, "name": "John", "salary": 5000000},
-        {"id": 2, "name": "Alice", "salary": 6000000},
-        {"id": 3, "name": "Bob", "salary": 4500000},
-      ];
-      double totalGaji = 0;
-
-      // ? Instruksi: Gunakan looping for untuk menghitung total gaji dari semua karyawan di dalam list employees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      double rataRataGaji = totalGaji / employees.length;
-
-      return rataRataGaji == 5166666.666666667;
-    },
-
-    // Exercise 408
-    () {
-      List<Map<String, dynamic>> orders = [
-        {"id": 1, "product": "Keyboard", "quantity": 2, "price": 250000},
-        {"id": 2, "product": "Mouse", "quantity": 3, "price": 150000},
-        {"id": 3, "product": "Headphones", "quantity": 1, "price": 350000},
-      ];
-      double totalNilaiPemesanan = 0;
-
-      // ? Instruksi: Gunakan looping for untuk menghitung total nilai pemesanan dari semua orders di dalam list orders
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return totalNilaiPemesanan == 1300000.0;
-    },
-
-    // Exercise 409
-    () {
-      List<Map<String, dynamic>> shipments = [
-        {"id": 1, "product": "Keyboard", "quantity": 2, "shippingCost": 20000},
-        {"id": 2, "product": "Mouse", "quantity": 3, "shippingCost": 18000},
-        {
-          "id": 3,
-          "product": "Headphones",
-          "quantity": 1,
-          "shippingCost": 25000
-        },
-      ];
-      int maxBiayaPengiriman = 0;
-
-      // ? Instruksi: Gunakan looping for untuk mencari nilai tertinggi dari shippingCost di dalam list shipments
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
-
-      return maxBiayaPengiriman == 25000;
     },
 
     // Exercise 410
@@ -4924,8 +6151,12 @@ class TechnicalTest {
       ];
       int jumlahHadir = 0;
 
-      // ? Instruksi: Gunakan looping for untuk menghitung jumlah kehadiran (isPresent = true) di dalam list attendance
-      // >>> Tulis kode for loop di sini
+      // Loop through each attendance record and count those who are present
+      for (var record in attendance) {
+        if (record['isPresent'] == true) {
+          jumlahHadir++;
+        }
+      }
 
       // --- End of Answer ---
 
@@ -4943,6 +6174,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari nilai tertinggi dari stock di dalam list warehouse
       // >>> Tulis kode for loop di sini
+      for (var item in warehouse) {
+        if (item["stock"] > maxStok) {
+          maxStok = item["stock"];
+        }
+      }
 
       // --- End of Answer ---
 
@@ -4960,7 +6196,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menghitung jumlah tugas yang telah selesai (progress = 100) di dalam list projectTasks
       // >>> Tulis kode for loop di sini
-
+      for (var task in projectTasks) {
+        if (task["progress"] == 100) {
+          jumlahSelesai++;
+        }
+      }
       // --- End of Answer ---
 
       return jumlahSelesai == 1;
@@ -4978,7 +6218,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mengisi list hadirOnly dengan data karyawan yang hadir (isPresent = true)
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employeeAttendance) {
+        if (employee["isPresent"] == true) {
+          hadirOnly.add(employee);
+        }
+      }
       // --- End of Answer ---
 
       return hadirOnly.length == 2;
@@ -4996,7 +6240,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menghitung total nilai dari semua siswa di dalam list studentScores
       // >>> Tulis kode for loop di sini
-
+      for (var student in studentScores) {
+        totalScore += student["score"];
+      }
       // --- End of Answer ---
 
       double averageScore = totalScore / studentScores.length;
@@ -5015,7 +6261,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menghitung total penjualan (quantitySold) dari semua produk di dalam list sales
       // >>> Tulis kode for loop di sini
-
+      for (var sale in sales) {
+        totalSales += sale["quantitySold"];
+      }
       // --- End of Answer ---
 
       return totalSales == 180;
@@ -5032,6 +6280,9 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menghitung total gaji (salary) dari semua karyawan di dalam list employees
       // >>> Tulis kode for loop di sini
+      for (var employee in employees) {
+        totalSalary += employee["salary"];
+      }
 
       // --- End of Answer ---
 
@@ -5045,10 +6296,15 @@ class TechnicalTest {
         {"id": 2, "name": "Alice", "age": 25, "salary": 6000000},
         {"id": 3, "name": "Bob", "age": 35, "salary": 4500000},
       ];
-      double averageAge = 0;
+      double totalAge = 0;
 
-      // ? Instruksi: Gunakan looping for untuk menghitung rata-rata usia (age) dari semua karyawan di dalam list employees
-      // >>> Tulis kode for loop di sini
+      // Menggunakan loop for untuk menghitung total usia
+      for (var employee in employees) {
+        totalAge += employee["age"];
+      }
+
+      // Menghitung rata-rata usia
+      double averageAge = totalAge / employees.length;
 
       // --- End of Answer ---
 
@@ -5067,6 +6323,14 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari harga termahal dan harga termurah dari semua produk di dalam list products
       // >>> Tulis kode for loop di sini
+      for (var product in products) {
+        if (product["price"] > maxPrice) {
+          maxPrice = product["price"];
+        }
+        if (product["price"] < minPrice) {
+          minPrice = product["price"];
+        }
+      }
 
       // --- End of Answer ---
 
@@ -5085,6 +6349,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari produk terlaris (dengan quantitySold terbanyak) di dalam list products
       // >>> Tulis kode for loop di sini
+      for (var product in products) {
+        if (product["quantitySold"] > maxQuantitySold) {
+          maxQuantitySold = product["quantitySold"];
+          bestProduct = product["name"];
+        }
+      }
 
       // --- End of Answer ---
 
@@ -5103,6 +6373,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari karyawan terbaik (dengan KPI tertinggi) di dalam list employees
       // >>> Tulis kode for loop di sini
+      for (var employee in employees) {
+        if (employee["kpi"] > maxKpi) {
+          maxKpi = employee["kpi"];
+          bestEmployee = employee["name"];
+        }
+      }
 
       // --- End of Answer ---
 
@@ -5120,7 +6396,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI rendah (kurang dari 80) di dalam list employees
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["kpi"] < 80) {
+          lowPerformers.add(employee["name"]);
+        }
+      }
       // --- End of Answer ---
 
       return lowPerformers.contains("Bob");
@@ -5137,12 +6417,15 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk menghitung total KPI dari semua karyawan di dalam list employees
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        totalKpi += employee["kpi"];
+      }
       // --- End of Answer ---
 
       double averageKpi = totalKpi / employees.length;
       return averageKpi == 80.0;
     },
+
     // Exercise 423
     () {
       List<Map<String, dynamic>> products = [
@@ -5151,15 +6434,22 @@ class TechnicalTest {
         {"id": 3, "name": "Headphones", "price": 350000, "quantitySold": 75},
       ];
 
-      int maxPrice = 0;
-      int minPrice = 0;
+      int maxPrice = products[0]["price"];
+      int minPrice = products[0]["price"];
 
-      // ? Instruksi: Gunakan looping for untuk mencari harga termahal dan harga termurah dari semua produk di dalam list products
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["price"] > maxPrice) {
+          maxPrice = product["price"];
+        }
+        if (product["price"] < minPrice) {
+          minPrice = product["price"];
+        }
+      }
       // --- End of Answer ---
 
-      return maxPrice == 350000 && minPrice == 150000;
+      return maxPrice == 350000 &&
+          minPrice == 150000; // Check if the max and min prices are correct
     },
 
     // Exercise 424
@@ -5174,7 +6464,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari produk terlaris (dengan quantitySold terbanyak) di dalam list products
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["quantitySold"] > maxQuantitySold) {
+          maxQuantitySold = product["quantitySold"];
+          bestProduct = product["name"];
+        }
+      }
       // --- End of Answer ---
 
       return bestProduct == "Keyboard";
@@ -5192,7 +6487,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi bagus (sedikit absentDays) di dalam list employees
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["absentDays"] < minAbsentDays) {
+          minAbsentDays = employee["absentDays"];
+          bestEmployee = employee["name"];
+        }
+      }
       // --- End of Answer ---
 
       return bestEmployee == "Bob";
@@ -5210,7 +6510,12 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["soldInDays"] > maxSoldInDays) {
+          maxSoldInDays = product["soldInDays"];
+          bestProduct = product["name"];
+        }
+      }
       // --- End of Answer ---
 
       return bestProduct == "Headphones";
@@ -5227,7 +6532,11 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI tinggi (lebih dari 80) di dalam list employees
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["kpi"] > 80) {
+          highPerformers.add(employee["name"]);
+        }
+      }
       // --- End of Answer ---
 
       return highPerformers.contains("John");
@@ -5245,7 +6554,15 @@ class TechnicalTest {
 
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["soldInDays"] > maxSoldInDays) {
+          maxSoldInDays = product["soldInDays"];
+          bestProducts.clear();
+          bestProducts.add(product["name"]);
+        } else if (product["soldInDays"] == maxSoldInDays) {
+          bestProducts.add(product["name"]);
+        }
+      }
       // --- End of Answer ---
 
       return bestProducts.length == 1 && bestProducts.contains("Headphones");
@@ -5263,7 +6580,12 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI tinggi (lebih dari 80) di dalam list employees
       // Kemudian masukkan data karyawan tersebut ke dalam list highPerformers
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["kpi"] > 80) {
+          highPerformers
+              .add(employee); // Masukkan data karyawan ke dalam highPerformers
+        }
+      }
       // --- End of Answer ---
 
       return highPerformers.length == 2 &&
@@ -5283,7 +6605,11 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI rendah (kurang dari 80) di dalam list employees
       // Kemudian masukkan data karyawan tersebut ke dalam list lowPerformers
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["kpi"] < 80) {
+          lowPerformers.add(employee);
+        }
+      }
       // --- End of Answer ---
 
       return lowPerformers.length == 1 && lowPerformers[0]["name"] == "Bob";
@@ -5302,7 +6628,15 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
       // Kemudian masukkan data produk tersebut ke dalam list bestProducts
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["soldInDays"] > maxSoldInDays) {
+          maxSoldInDays = product["soldInDays"];
+          bestProducts.clear();
+          bestProducts.add(product);
+        } else if (product["soldInDays"] == maxSoldInDays) {
+          bestProducts.add(product);
+        }
+      }
       // --- End of Answer ---
 
       return bestProducts.length == 1 &&
@@ -5317,11 +6651,20 @@ class TechnicalTest {
         {"id": 3, "name": "Bob", "kpi": 70, "absentDays": 1},
       ];
       List<Map<String, dynamic>> goodPerformers = [];
+      int minAbsentDays = double.maxFinite.toInt();
 
       // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi bagus (sedikit absentDays) di dalam list employees
       // Kemudian masukkan data karyawan tersebut ke dalam list goodPerformers
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["absentDays"] < minAbsentDays) {
+          minAbsentDays = employee["absentDays"];
+          goodPerformers.clear(); // Clear previous good performers
+          goodPerformers.add(employee); // Add the current best performer
+        } else if (employee["absentDays"] == minAbsentDays) {
+          goodPerformers.add(employee); // Add to good performers if equal
+        }
+      }
       // --- End of Answer ---
 
       return goodPerformers.length == 1 && goodPerformers[0]["name"] == "Bob";
@@ -5340,7 +6683,15 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
       // Kemudian masukkan data produk tersebut ke dalam list bestProducts
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["soldInDays"] > maxSoldInDays) {
+          maxSoldInDays = product["soldInDays"];
+          bestProducts.clear();
+          bestProducts.add(product);
+        } else if (product["soldInDays"] == maxSoldInDays) {
+          bestProducts.add(product);
+        }
+      }
       // --- End of Answer ---
 
       return bestProducts.length == 1 &&
@@ -5358,7 +6709,11 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari karyawan yang bekerja di departemen "HR"
       // Kemudian masukkan nama karyawan tersebut ke dalam list hrEmployees
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["department"] == "HR") {
+          hrEmployees.add(employee["name"]); // Add the name of the HR employee
+        }
+      }
       // --- End of Answer ---
 
       return hrEmployees.length == 1 && hrEmployees.contains("John");
@@ -5376,7 +6731,11 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 200000
       // Kemudian masukkan nama produk tersebut ke dalam list expensiveProducts
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["price"] > 200000) {
+          expensiveProducts.add(product["name"]);
+        }
+      }
       // --- End of Answer ---
 
       return expensiveProducts.length == 2 &&
@@ -5396,7 +6755,11 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 300000
       // Kemudian masukkan nama produk tersebut ke dalam list affordableProducts
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["price"] < 300000) {
+          affordableProducts.add(product["name"]);
+        }
+      }
       // --- End of Answer ---
 
       return affordableProducts.length == 2 &&
@@ -5416,7 +6779,12 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari karyawan yang bekerja di departemen "HR"
       // Jika ditemukan, simpan nama karyawan tersebut pada variabel hrEmployee
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["department"] == "HR") {
+          hrEmployee = employee["name"];
+          break;
+        }
+      }
       // --- End of Answer ---
 
       return hrEmployee == "John";
@@ -5434,7 +6802,12 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 300000
       // Jika ditemukan, simpan nama produk tersebut pada variabel expensiveProduct
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["price"] > 300000) {
+          expensiveProduct = product["name"];
+          break;
+        }
+      }
       // --- End of Answer ---
 
       return expensiveProduct == "Headphones";
@@ -5449,11 +6822,15 @@ class TechnicalTest {
       ];
       List<String> itEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan yang bekerja di departemen "IT"
-      // Kemudian masukkan nama karyawan tersebut ke dalam list itEmployees
-      // >>> Tulis kode for loop di sini
+      // Looping untuk mencari karyawan yang bekerja di departemen "IT"
+      for (var employee in employees) {
+        if (employee["department"] == "IT") {
+          itEmployees.add(employee["name"]);
+        }
+      }
 
-      // --- End of Answer ---
+      // Debug print untuk memastikan hasilnya
+      print(itEmployees); // Pastikan list itEmployees berisi "Bob"
 
       return itEmployees.length == 1 && itEmployees.contains("Bob");
     },
@@ -5470,7 +6847,11 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
       // Kemudian masukkan nama produk tersebut ke dalam list affordableProducts
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["price"] < 200000) {
+          affordableProducts.add(product["name"]);
+        }
+      }
       // --- End of Answer ---
 
       return affordableProducts.length == 1 &&
@@ -5491,7 +6872,14 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia lebih dari 30 tahun atau berjenis kelamin "Female"
       // Jika ditemukan, simpan nama, usia, dan jenis kelaminnya pada variabel yang telah disediakan
       // >>> Tulis kode for loop di sini
-
+      for (var employee in employees) {
+        if (employee["age"] > 30 || employee["gender"] == "Female") {
+          name = employee["name"];
+          age = employee["age"];
+          gender = employee["gender"];
+          break;
+        }
+      }
       // --- End of Answer ---
 
       return name == "Alice" && age == 32 && gender == "Female";
@@ -5509,7 +6897,11 @@ class TechnicalTest {
       // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 200000 dan terjual kurang dari 60
       // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
       // >>> Tulis kode for loop di sini
-
+      for (var product in products) {
+        if (product["price"] > 200000 && product["quantitySold"] < 60) {
+          matchedProducts.add(product);
+        }
+      }
       // --- End of Answer ---
 
       return matchedProducts.isNotEmpty && matchedProducts.first["id"] == 1;
@@ -5524,17 +6916,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama mengandung huruf "Do"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan dengan nama mengandung "Do"
+      for (var employee in employees) {
+        if (employee["name"].contains("Do")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.length == 1 &&
           matchedEmployees[0]["name"] == "John Doe";
     },
 
-    // Exercise 444
+// Exercise 444
     () {
       List<Map<String, dynamic>> products = [
         {"id": 1, "name": "Keyboard Logitech", "price": 250000},
@@ -5543,17 +6936,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan nama mengandung huruf "Sony"
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk dengan nama mengandung "Sony"
+      for (var product in products) {
+        if (product["name"].contains("Sony")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 1 &&
           matchedProducts[0]["name"] == "Headphones Sony";
     },
 
-    // Exercise 445
+// Exercise 445
     () {
       List<Map<String, dynamic>> employees = [
         {"id": 1, "name": "John Doe", "age": 28},
@@ -5562,17 +6956,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama depan mengandung huruf "Jo"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan dengan nama depan mengandung "Jo"
+      for (var employee in employees) {
+        if (employee["name"].startsWith("Jo")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.length == 1 &&
           matchedEmployees[0]["name"] == "John Doe";
     },
 
-    // Exercise 446
+// Exercise 446
     () {
       List<Map<String, dynamic>> products = [
         {"id": 1, "name": "Keyboard Logitech", "price": 250000},
@@ -5581,18 +6976,19 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan nama mengandung huruf "Logi"
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk dengan nama mengandung "Logi"
+      for (var product in products) {
+        if (product["name"].contains("Logi")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 2 &&
           matchedProducts[0]["name"] == "Keyboard Logitech" &&
           matchedProducts[1]["name"] == "Mouse Logitech";
     },
 
-    // Exercise 447
+// Exercise 447
     () {
       List<Map<String, dynamic>> employees = [
         {"id": 1, "name": "John Doe", "age": 28},
@@ -5601,11 +6997,12 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama belakang mengandung huruf "son"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan dengan nama belakang mengandung "son"
+      for (var employee in employees) {
+        if (employee["name"].endsWith("son")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.length == 1 &&
           matchedEmployees[0]["name"] == "Bob Johnson";
@@ -5620,17 +7017,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan nama mengandung huruf "Sony"
-      // atau mengandung huruf "Logi"
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk dengan nama mengandung "Sony" atau "Logi"
+      for (var product in products) {
+        if (product["name"].contains("Sony") ||
+            product["name"].contains("Logi")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 3;
     },
 
-    // Exercise 449
+// Exercise 449
     () {
       List<Map<String, dynamic>> products = [
         {"id": 1, "name": "Keyboard Logitech", "price": 250000},
@@ -5639,17 +7037,17 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
-      // atau mengandung huruf "Sony" dalam nama produk
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk dengan harga < 200000 atau nama mengandung "Sony"
+      for (var product in products) {
+        if (product["price"] < 200000 || product["name"].contains("Sony")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 2;
     },
 
-    // Exercise 451
+// Exercise 451
     () {
       List<Map<String, dynamic>> employees = [
         {"id": 1, "name": "John Doe", "age": 28},
@@ -5658,18 +7056,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia lebih dari 35 tahun
-      // atau nama mengandung huruf "Smith"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan usia > 35 atau nama mengandung "Smith"
+      for (var employee in employees) {
+        if (employee["age"] > 35 || employee["name"].contains("Smith")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.length == 1 &&
           matchedEmployees[0]["name"] == "Alice Smith";
     },
 
-    // Exercise 452
+// Exercise 452
     () {
       List<Map<String, dynamic>> products = [
         {"id": 1, "name": "Keyboard Logitech", "price": 250000},
@@ -5678,18 +7076,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 300000
-      // atau nama mengandung huruf "Sony" dalam produk
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk dengan harga > 300000 atau nama mengandung "Sony"
+      for (var product in products) {
+        if (product["price"] > 300000 || product["name"].contains("Sony")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 1 &&
           matchedProducts[0]["name"] == "Headphones Sony";
     },
 
-    // Exercise 453
+// Exercise 453
     () {
       List<Map<String, dynamic>> employees = [
         {"id": 1, "name": "John Doe", "age": 28},
@@ -5698,19 +7096,20 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia di antara 25 dan 30 tahun (inklusif)
-      // atau nama depan mengandung huruf "Bob"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan usia di antara 25-30 atau nama depan "Bob"
+      for (var employee in employees) {
+        if ((employee["age"] >= 25 && employee["age"] <= 30) ||
+            employee["name"].startsWith("Bob")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.length == 2 &&
           matchedEmployees[0]["name"] == "John Doe" &&
           matchedEmployees[1]["name"] == "Bob Johnson";
     },
 
-    // Exercise 454
+// Exercise 454
     () {
       List<Map<String, dynamic>> products = [
         {"id": 1, "name": "Keyboard Logitech", "price": 250000},
@@ -5719,18 +7118,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
-      // dan nama produk mengandung huruf "og"
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk harga < 200000 dan nama mengandung "og"
+      for (var product in products) {
+        if (product["price"] < 200000 && product["name"].contains("og")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 1 &&
           matchedProducts[0]["name"] == "Mouse Logitech";
     },
 
-    // Exercise 455
+// Exercise 455
     () {
       List<Map<String, dynamic>> employees = [
         {"id": 1, "name": "John Doe", "age": 28},
@@ -5739,18 +7138,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia kurang dari 30 tahun
-      // dan nama belakang mengandung huruf "son"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan usia < 30 dan nama belakang mengandung "son"
+      for (var employee in employees) {
+        if (employee["age"] < 30 && employee["name"].endsWith("son")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.length == 1 &&
           matchedEmployees[0]["name"] == "Bob Johnson";
     },
 
-    // Exercise 456
+// Exercise 456
     () {
       List<Map<String, dynamic>> employees = [
         {"id": 1, "name": "John Doe", "age": 36},
@@ -5759,17 +7158,17 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia lebih dari 35 tahun
-      // dan nama mengandung huruf "Smith"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan usia > 35 dan nama mengandung "Smith"
+      for (var employee in employees) {
+        if (employee["age"] > 35 && employee["name"].contains("Smith")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.isNotEmpty && matchedEmployees.first["id"] == 2;
     },
 
-    // Exercise 457
+// Exercise 457
     () {
       List<Map<String, dynamic>> products = [
         {"id": 1, "name": "Keyboard Logitech", "price": 250000},
@@ -5778,18 +7177,18 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 300000
-      // dan nama mengandung huruf "Sony" dalam produk
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk harga > 300000 dan nama mengandung "Sony"
+      for (var product in products) {
+        if (product["price"] > 300000 && product["name"].contains("Sony")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 1 &&
           matchedProducts[0]["name"] == "Headphones Sony";
     },
 
-    // Exercise 458
+// Exercise 458
     () {
       List<Map<String, dynamic>> employees = [
         {"id": 1, "name": "John Doe", "age": 28},
@@ -5798,18 +7197,19 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedEmployees = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia di antara 25 dan 30 tahun (inklusif)
-      // dan nama depan mengandung huruf "Bob"
-      // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari karyawan usia di antara 25-30 dan nama depan "Bob"
+      for (var employee in employees) {
+        if ((employee["age"] >= 25 && employee["age"] <= 30) &&
+            employee["name"].startsWith("Bob")) {
+          matchedEmployees.add(employee);
+        }
+      }
 
       return matchedEmployees.length == 1 &&
           matchedEmployees[0]["name"] == "Bob Johnson";
     },
 
-    // Exercise 459
+// Exercise 459
     () {
       List<Map<String, dynamic>> products = [
         {"id": 1, "name": "Keyboard Logitech", "price": 250000},
@@ -5818,33 +7218,37 @@ class TechnicalTest {
       ];
       List<Map<String, dynamic>> matchedProducts = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
-      // dan nama produk mengandung huruf "og"
-      // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      // Looping for mencari produk harga < 200000 dan nama mengandung "og"
+      for (var product in products) {
+        if (product["price"] < 200000 && product["name"].contains("og")) {
+          matchedProducts.add(product);
+        }
+      }
 
       return matchedProducts.length == 1 &&
           matchedProducts[0]["name"] == "Mouse Logitech";
     },
 
-    // Exercise 460
+// Exercise 460
     () {
       List<Map<String, dynamic>> orders = [
         {"id": 1, "product": "Phone", "quantity": 2, "total": 1000},
         {"id": 2, "product": "Laptop", "quantity": 1, "total": 1200},
         {"id": 3, "product": "Headphones", "quantity": 3, "total": 150},
-        {"id": 4, "product": "TV", "quantity": 1, "total": 800},
+        {"id": 4, "product": "Tablet", "quantity": 1, "total": 600},
       ];
-      int index = -1;
+      List<Map<String, dynamic>> matchedOrders = [];
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari order dengan id 3 dalam list orders
-      // >>> Tulis kode for loop di sini
+      // Looping for mencari pesanan quantity > 2 atau total > 1000
+      for (var order in orders) {
+        if (order["quantity"] > 2 || order["total"] > 1000) {
+          matchedOrders.add(order);
+        }
+      }
 
-      // --- End of Answer ---
-
-      return index == 2;
+      return matchedOrders.length == 2 &&
+          matchedOrders[0]["id"] == 2 &&
+          matchedOrders[1]["id"] == 3;
     },
 
     // Exercise 461
@@ -5857,10 +7261,13 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "Eva" dan salary lebih dari 6000 dalam list employees
-      // >>> Tulis kode for loop di sini
+      for (int i = 0; i < employees.length; i++) {
+        if (employees[i]["name"] == "Eva" && employees[i]["salary"] > 6000) {
+          index = i;
+          break;
+        }
+      }
 
-      // --- End of Answer ---
       return index == 3;
     },
 
@@ -5875,10 +7282,13 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan id 5 dan type "Purchase" dalam list transactions
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < transactions.length; i++) {
+        if (transactions[i]["id"] == 5 &&
+            transactions[i]["type"] == "Purchase") {
+          index = i;
+          break;
+        }
+      }
 
       return index == 4;
     },
@@ -5893,10 +7303,12 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari product dengan id 2 dan price 1200 dalam list products
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < products.length; i++) {
+        if (products[i]["id"] == 2 && products[i]["price"] == 1200) {
+          index = i;
+          break;
+        }
+      }
 
       return index == 1;
     },
@@ -5911,10 +7323,12 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "Bob" dan age lebih dari 30 dalam list employees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < employees.length; i++) {
+        if (employees[i]["name"] == "Bob" && employees[i]["age"] > 30) {
+          index = i;
+          break;
+        }
+      }
 
       return index == 2;
     },
@@ -5930,10 +7344,13 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan type "Refund" dan status "Pending" dalam list transactions
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < transactions.length; i++) {
+        if (transactions[i]["type"] == "Refund" &&
+            transactions[i]["status"] == "Pending") {
+          index = i;
+          break;
+        }
+      }
 
       return index == 2;
     },
@@ -5948,10 +7365,13 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari product dengan name "Headphones" dan stock lebih dari 15 dalam list products
-      // >>> Tulis kode for loop di sini
+      for (int i = 0; i < products.length; i++) {
+        if (products[i]["name"] == "Headphones" && products[i]["stock"] > 15) {
+          index = i;
+          break;
+        }
+      }
 
-      // --- End of Answer ---
       return index == 2;
     },
 
@@ -5965,10 +7385,14 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "John", age 30, dan department "Sales" dalam list employees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < employees.length; i++) {
+        if (employees[i]["name"] == "John" &&
+            employees[i]["age"] == 30 &&
+            employees[i]["department"] == "Sales") {
+          index = i;
+          break;
+        }
+      }
 
       return index == 0;
     },
@@ -5984,10 +7408,13 @@ class TechnicalTest {
       ];
       int index = -1;
 
-      // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan amount 75 dan status "Completed" dalam list transactions
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (int i = 0; i < transactions.length; i++) {
+        if (transactions[i]["amount"] == 75 &&
+            transactions[i]["status"] == "Completed") {
+          index = i;
+          break;
+        }
+      }
 
       return index == 3;
     },
@@ -6049,9 +7476,16 @@ class TechnicalTest {
       // Instruksi: Gunakan looping for untuk mencari user yang berlangganan (isSubscribed = true), telah diverifikasi (isVerified = true),
       // memiliki gender "Female", berusia di atas 25 tahun, dan tinggal di kota "Los Angeles" atau "New York"
       // Masukkan user yang memenuhi kriteria tersebut ke dalam list subscribedUsers
-      // >>> Tulis kode for loop di sini
+      for (var user in users) {
+        if (user["isSubscribed"] == true &&
+            user["isVerified"] == true &&
+            user["gender"] == "Female" &&
+            user["age"] > 25 &&
+            (user["city"] == "Los Angeles" || user["city"] == "New York")) {
+          subscribedUsers.add(user);
+        }
+      }
 
-      // --- End of Answer ---
       return subscribedUsers.isNotEmpty && subscribedUsers.first["id"] == 4;
     },
 
@@ -6111,10 +7545,14 @@ class TechnicalTest {
 
       // Instruksi: Gunakan looping for untuk mencari product yang merupakan produk unggulan (isFeatured = true),
       // memiliki rating di atas 4.5, tersedia (isAvailable = true), dan memiliki lebih dari 100 ulasan (reviews > 100)
-      // Masukkan product yang memenuhi kriteria tersebut ke dalam list featuredProducts
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (var product in products) {
+        if (product["isFeatured"] == true &&
+            product["rating"] > 4.5 &&
+            product["isAvailable"] == true &&
+            product["reviews"] > 100) {
+          featuredProducts.add(product);
+        }
+      }
 
       return featuredProducts.length == 2 &&
           featuredProducts[0]["name"] == "Headphones" &&
@@ -6178,10 +7616,15 @@ class TechnicalTest {
       // Instruksi: Gunakan looping for untuk mencari karyawan dengan gaji tinggi (salary > 5000),
       // berusia di atas 25 tahun, memiliki pengalaman kerja lebih dari 3 tahun (yearsOfExperience > 3),
       // dan bekerja di departemen "IT" atau "Finance"
-      // Masukkan karyawan yang memenuhi kriteria tersebut ke dalam list highPaidEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (var employee in employees) {
+        if (employee["salary"] > 5000 &&
+            employee["age"] > 25 &&
+            employee["yearsOfExperience"] > 3 &&
+            (employee["department"] == "IT" ||
+                employee["department"] == "Finance")) {
+          highPaidEmployees.add(employee);
+        }
+      }
 
       return highPaidEmployees.isNotEmpty && highPaidEmployees.first["id"] == 4;
     },
@@ -6243,10 +7686,13 @@ class TechnicalTest {
       // Instruksi: Gunakan looping for untuk mencari karyawan dengan status paruh waktu (isFullTime = false),
       // tidak memiliki asuransi kesehatan (hasHealthInsurance = false),
       // dan berusia di bawah 25 tahun (age < 25)
-      // Masukkan karyawan yang memenuhi kriteria tersebut ke dalam list partTimeEmployees
-      // >>> Tulis kode for loop di sini
-
-      // --- End of Answer ---
+      for (var employee in employees) {
+        if (employee["isFullTime"] == false &&
+            employee["hasHealthInsurance"] == false &&
+            employee["age"] < 25) {
+          partTimeEmployees.add(employee);
+        }
+      }
 
       return partTimeEmployees.isNotEmpty && partTimeEmployees.first["id"] == 4;
     },
